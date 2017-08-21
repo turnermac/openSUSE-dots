@@ -1,4 +1,3 @@
-export PATH=/home/tullio/.anaconda3/bin:/home/tullio/bin:/usr/local/bin:/opt/trinity/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games
 
 test -s ~/.alias && . ~/.alias || true
 

@@ -17,9 +17,9 @@
 $firefox
 
 # Command Line History (newest to oldest):
+:q!
 :wq
 :q
-:q!
 :%s/rowland/firefox
 :%s/computer/rowland/g
 :%s/machine/rowland/g
@@ -78,18 +78,23 @@ $firefox
 	n
 
 # File marks:
-'0  51  16  ~/.Xresources
-'1  23  0  ~/textfiles/new
-'2  24  25  ~/.bashrc
-'3  10  25  ~/.Xresources
-'4  1  0  /opt/trinity/bin/compton-tde
-'5  4  6  ~/bin/xrdb_urxvt
-'6  5  22  ~/kemsly.github.io/terminal/main.css
-'7  8  22  ~/kemsly.github.io/terminal/main.css
-'8  5  0  ~/kemsly.github.io/terminal/index.html
-'9  114  17  /etc/sysconfig/language
+'0  1  0  ~/.dotfiles_local/.profile
+'1  13  0  ~/.profile
+'2  197  17  ~/.gnupg/gpg.conf
+'3  51  16  ~/.Xresources
+'4  23  0  ~/textfiles/new
+'5  24  25  ~/.bashrc
+'6  10  25  ~/.Xresources
+'7  1  0  /opt/trinity/bin/compton-tde
+'8  4  6  ~/bin/xrdb_urxvt
+'9  5  22  ~/kemsly.github.io/terminal/main.css
 
 # Jumplist (newest first):
+-'  1  0  ~/.dotfiles_local/.profile
+-'  13  0  ~/.profile
+-'  1  0  ~/.profile
+-'  197  17  ~/.gnupg/gpg.conf
+-'  1  0  ~/.gnupg/gpg.conf
 -'  51  16  ~/.Xresources
 -'  10  25  ~/.Xresources
 -'  23  0  ~/textfiles/new
@@ -183,12 +188,24 @@ $firefox
 -'  1  0  ~/textfiles/free
 -'  1  42  ~/.trinity/env/set_window_manager.sh
 -'  7  0  ~/.bashrc
--'  180  0  ~/.xmonad/xmonad.hs
--'  1  0  ~/.xmonad/xmonad.hs
--'  5  0  ~/.bashrc
--'  2  0  ~/.bashrc
 
 # History of marks within files (newest to oldest):
+
+> ~/.dotfiles_local/.profile
+	"	1	0
+
+> ~/.profile
+	"	13	0
+	^	13	0
+	.	12	2
+	+	10	29
+	+	12	2
+
+> ~/.gnupg/gpg.conf
+	"	197	17
+	^	197	18
+	.	197	0
+	+	197	0
 
 > ~/.Xresources
 	"	51	16
