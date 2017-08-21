@@ -1,0 +1,122 @@
+Xft.dpi:                96
+Xft.antialias:          true
+Xft.hinting:            true
+Xft.rgba:               rgb
+Xft.autohint:           true
+Xft.hintstyle:          hintfull
+Xft.lcdfilter:          lcddefault
+
+URxvt.inputMethod: ibus
+URxvt.preeditType: OverTheSpot
+
+! Clickble URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.keysym.C-Delete: perl:matcher:last
+URxvt.keysym.M-Delete: perl:matcher:list
+URxvt.matcher.rend.0: Uline Bold fg5
+
+URxvt.depth: 32
+URxvt*geometry:         120x30
+URxvt*scrollBar:        false
+
+! Color scheme
+#define BLACK_D #232323
+#define BLACK_L #494949
+
+#define GREY_D #7F7F7F
+#define GREY_L #AAAAAA
+
+#define WHITE_D #CCCCCC
+#define WHITE_L #EFEFEF
+
+#define RED_D #A8423E
+#define RED_L #DB5751
+
+#define FUSCHIA_D #8F288C
+#define FUSCHIA_L #C236BD
+
+#define PURPLE_D #59378A
+#define PURPLE_L #794BBD
+
+#define BLUE_D #4254A1
+#define BLUE_L #576FD4
+
+#define CYAN_D #48ADC9
+#define CYAN_L #5AD9FC
+
+! special
+*.foreground: #DFDFDF
+*.background: [85]#131313
+
+*.color0: BLACK_D
+*.color8: BLACK_L
+
+*.color1: RED_D
+*.color9: RED_L
+
+*.color2: FUSCHIA_D
+*.color10: FUSCHIA_L
+
+*.color3: PURPLE_D
+*.color11: PURPLE_L
+
+*.color4: BLUE_D
+*.color12: BLUE_L
+
+*.color5: CYAN_D
+*.color13: CYAN_L
+
+*.color6: GREY_D
+*.color14: GREY_L
+
+*.color7: WHITE_D
+*.color15: WHITE_L
+
+
+URxvt*font:             xft:tewi:pixelsize=10
+URxvt*boldFont:         xft:tewi:pixelsize=10
+
+URxvt*internalBorder:   0
+
+
+URxvt*perl-ext-common:  default,clipboard
+URxvt*perl-ext:         default,clipboard
+
+
+!Appearance
+URxvt.saveLines:        12000
+URxvt.internalBorder:   20
+
+
+!XTERM Settings
+xterm*title:             xterm
+xterm*faceName:          tewi:pixelsize=9
+!xterm*faceName:          cure:Regular
+!xterm*boldfaceName:      cure:Regular
+!xterm*faceName:          tewi
+!xterm*faceSize:          8.7
+!xterm*boldfaceName:      Tewi
+xterm*geometry:          126x30
+!xterm*boldMode:         false
+xterm*cutNewline:        false
+xterm*on4Clicks:         group
+xterm*on5Clicks:         page
+xterm*internalBorder:    10
+xterm*background:        #262729
+xterm*foreground:        light grey
+xterm*metaSendsEscape:   true
+xterm*colorBD:           #ffffff
+xterm*colorBDMode:       false
+xterm*cursorBlink:       false
+xterm*cursorColor:       #e2baf1
+!xterm*veryBoldColors:    14
+xterm*dynamiccolors: true
+xterm*utf8: 1
+xterm*loginShell:        true
+xterm*ScrollBar:	 false
+xterm*charClass:         33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48,35:48,58:48,63:48,61:48,44:48,38:48,59:48
+xterm*jumpScroll:        true
+xterm*multiScroll:       true
+xterm*saveLines:         512

@@ -1,0 +1,13 @@
+[General]
+StandardFont=Ubuntu,9,-1,5,50,0,0,0,0,0
+activeFont=Ubuntu,8,-1,5,50,0,0,0,0,0
+background=75,123,130
+fixed=tewi,8,-1,5,50,0,0,0,0,0
+font=Ubuntu,9,-1,5,50,0,0,0,0,0
+menuFont=Ubuntu,9,-1,5,50,0,0,0,0,0
+selectBackground=82,102,115
+selectForeground=255,255,255
+taskbarFont=Ubuntu,9,-1,5,25,0,0,0,0,0
+toolBarFont=Ubuntu,9,-1,5,25,0,0,0,0,0
+windowBackground=55,77,78
+windowForeground=255,255,255

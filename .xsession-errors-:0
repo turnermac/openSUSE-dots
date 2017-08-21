@@ -1,0 +1,698 @@
+[starttde] Starting starttde.
+[starttde] This script is /opt/trinity/bin/starttde
+[starttde] TDE version is R14.0.4
+[starttde] TDE base directory is /opt/trinity
+[starttde] TDEHOME is not set.
+[starttde] Set TDEHOME to /home/tullio/.trinity.
+[starttde] XDG_DATA_DIRS: /opt/trinity/share:/usr/local/share:/usr/share
+[starttde] TDEDIR: /opt/trinity
+[starttde] TDEDIRS: 
+[starttde] Starting Trinity...
+Failed to open connection to "system" message bus: Failed to connect to socket /home/tullio/.anaconda3/var/run/dbus/system_bus_socket: No such file or directory
+[starttde] Trinity hardware control dbus daemon not started.
+[tdebuildsycoca] tdebuildsycoca running...
+[dcopserver] DCOP Cleaning up dead connections.
+[starttde] TDE_FULL_SESSION: true
+[starttde] TDE_SESSION_UID: 1000
+[tdeinit] Shutting down running client.
+---------------------------------
+[dcopserver] It looks like dcopserver is already running. If you are sure
+that it is not already running, remove /home/tullio/.DCOPserver_gentoo__0
+and start dcopserver again.
+---------------------------------
+[kded] Daemon (kded) is already running.
+[tdebuildsycoca] tdebuildsycoca running...
+[tdebuildsycoca] Reusing existing tdesycoca.
+[dcopserver] DCOP Cleaning up dead connections.
+[starttde] tdeinit started successfully.
+TQThreadInstance::start: Setting thread storage to 0x23c2790
+
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+khotkeys: WARNING: Loading of khotkeys module failed.
+tdenetworkmanager: WARNING: [void Tray::createDeviceTrayComponent(TQString)] UDI: /sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.4/2-1.4:1.6/net/wwan0/wwan0 has unknown devicetype: 11
+[artsd] There are already artsd objects registered, looking if they are active...
+, 3: Warning: using regular magic file `/etc/magic'
+0Bç, 3: Warning: using regular magic file `/etc/magic'
+†‰ç, 3: Warning: using regular magic file `/etc/magic'
+/, 3: Warning: using regular magic file `/etc/magic'
+
+[artsd] Error: Can't add object reference (probably artsd is already running).
+       If you are sure it is not already running, remove the relevant files:
+
+       /tmp/tdesocket-tullio/Arts_SoundServerV2
+       /tmp/tdesocket-tullio/Arts_SoundServer
+       /tmp/tdesocket-tullio/Arts_SimpleSoundServer
+       /tmp/tdesocket-tullio/Arts_PlayObjectFactory
+       /tmp/tdesocket-tullio/Arts_AudioManager
+
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x3200008
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x3c001ce
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x3c001ce
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x3c001ce
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x3c0018c
+
+(firefox:2263): Gtk-WARNING **: Theme file for default has no directories
+
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+kbuildsycoca4 running...
+amarok(2362)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+libpng warning: iCCP: known incorrect sRGB profile
+QWidget::insertAction: Attempt to insert null action
+amarok(2362)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (0,-1) are not possible
+QSystemTrayIcon::setVisible: No Icon set
+"sni-qt/2362" WARN  06:12:41.629 void StatusNotifierItemFactory::connectToSnw() Invalid interface to SNW_SERVICE 
+Could not parse stylesheet of widget 0x374e4e0
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  2
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  2
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  15
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00158
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00158
+QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.22'
+QDBusConnection: name 'org.freedesktop.UDisks2' had owner '' but we thought it was ':1.28'
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+********************************************************************************************** 
+** AMAROK WAS STARTED IN NORMAL MODE. IF YOU WANT TO SEE DEBUGGING INFORMATION, PLEASE USE: ** 
+** amarok --debug                                                                           ** 
+********************************************************************************************** 
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Playlist dock/Playlist::Dock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+kio_trash(2431) TrashProtocol::createUDSEntry: couldn't stat  "/home/tullio/.local/share/Trash/files/block.brazil~" 
+kio_trash(2431) TrashProtocol::createUDSEntry: couldn't stat  "/home/tullio/.local/share/Trash/files/index.html~" 
+kio_trash(2431) TrashProtocol::createUDSEntry: couldn't stat  "/home/tullio/.local/share/Trash/files/main.css~" 
+kio_trash(2431) TrashProtocol::createUDSEntry: couldn't stat  "/home/tullio/.local/share/Trash/files/shell.txt~" 
+kio_trash(2431) TrashProtocol::createUDSEntry: couldn't stat  "/home/tullio/.local/share/Trash/files/urxvt-256-color.sh~" 
+kio_trash(2431) TrashProtocol::createUDSEntry: couldn't stat  "/home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~" 
+"<?xml version="1.0" encoding="UTF-8" ?>
+<lfm status="failed"><error code="6">User not found</error>
+</lfm>
+" 
+Calling appendChild() on a null node does nothing.
+Calling appendChild() on a null node does nothing.
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+QWidget::setMinimumSize: (Media Sources dock/BrowserDock) Negative sizes (200,-1) are not possible
+Calling appendChild() on a null node does nothing.
+Calling appendChild() on a null node does nothing.
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+libpng warning: Interlace handling should be turned on when using png_read_image
+
+(seamonkey:2699): Gtk-WARNING **: Theme file for default has no directories
+
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x480015b
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x3c00590
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x3c00671
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x3c0063d
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+
+(firefox:2906): Gtk-WARNING **: Theme file for default has no directories
+
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x5a00001
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x584fefd
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+Calling appendChild() on a null node does nothing.
+Calling appendChild() on a null node does nothing.
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x586f350
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x5887050
+Calling appendChild() on a null node does nothing.
+Calling appendChild() on a null node does nothing.
+Calling appendChild() on a null node does nothing.
+Calling appendChild() on a null node does nothing.
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x5a00003
+Calling appendChild() on a null node does nothing.
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x5c00013
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x5c00013
+kmail: WARNING: [virtual KMAcctImap* KMFolderImap::account() const] No parent folder found for 1881596425
+kmail: WARNING: [virtual KMAcctImap* KMFolderImap::account() const] No parent folder found for 1881596425
+kmail: WARNING: [virtual KMAcctImap* KMFolderImap::account() const] No parent folder found for 1881596425
+kmail: WARNING: [virtual KMAcctImap* KMFolderImap::account() const] No parent folder found for 1881596425
+TQThreadInstance::start: Setting thread storage to 0x9bca80
+
+TQThreadInstance::start: Setting thread storage to 0x9bc8f0
+
+TQThreadInstance::start: Setting thread storage to 0x9bcd60
+
+TQThreadInstance::start: Setting thread storage to 0x9bd100
+
+TQThreadInstance::start: Setting thread storage to 0x7a1c40
+
+TQThreadInstance::start: Setting thread storage to 0x7f9efc002430
+
+TQThreadInstance::start: Setting thread storage to 0x7f9efc001760
+
+TQThreadInstance::finish: In TQThreadInstance::finish for thread 0x7f9efc001760
+
+TQThreadInstance::finish: In TQThreadInstance::finish for thread 0x7a1c40
+
+TQThreadInstance::finish: In TQThreadInstance::finish for thread 0x7f9efc002430
+
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x5a00402
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x5a00402
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x5a00402
+TQThreadInstance::start: Setting thread storage to 0x7a1c40
+
+TQThreadInstance::start: Setting thread storage to 0x7f9ef40015d0
+
+TQThreadInstance::start: Setting thread storage to 0x7f9ef4001c40
+
+TQThreadInstance::finish: In TQThreadInstance::finish for thread 0x7f9ef40015d0
+
+TQThreadInstance::finish: In TQThreadInstance::finish for thread 0x7f9ef4001c40
+
+TQThreadInstance::finish: In TQThreadInstance::finish for thread 0x7a1c40
+
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+QTimeLine::setPaused: Not running
+Calling appendChild() on a null node does nothing.
+amarok(2362)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+amarok(2362)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+amarok(2362)/kdecore (KConfigSkeleton) KCoreConfigSkeleton::writeConfig:
+Calling appendChild() on a null node does nothing.
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x4c00003
+, 3: Warning: using regular magic file `/etc/magic'
+@/û, 3: Warning: using regular magic file `/etc/magic'
+@˙y, 3: Warning: using regular magic file `/etc/magic'
+/etc/magic:/usr/share/misc/magic:/etc/trinity/magic/tdeio.magic:/etc/trinity/magic/cabri.magic:/etc/trinity/magic/kolf.magic:/etc/trinity/magic/drgeo.magic, 3: Warning: using regular magic file `/etc/magic'
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c007fb
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c007fb
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c007fb
+TQFile::open: No file name specified
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x4c00003
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x58000b5
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x640000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x680000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x600000a
+
+(seamonkey:4523): Gtk-WARNING **: Theme file for default has no directories
+
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x6a0000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x6a0000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x6a0000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x6a0000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x6a0000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x4c0015b
+
+(seamonkey:4776): Gtk-WARNING **: Theme file for default has no directories
+
+
+** (seamonkey:4776): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Breeze/gtk-2.0/../assets/line-h.png,
+borders don't fit within the image
