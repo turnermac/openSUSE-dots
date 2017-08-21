@@ -1,10 +1,4 @@
-# /etc/skel/.bash_profile
-
-# This file is sourced by bash for login shells.  The following line
-# runs your .bashrc and is recommended by the bash info pages.
-if [[ -f ~/.bashrc ]] ; then
-	. ~/.bashrc
-fi
+#!/bin/bash
 
 export PATH=/home/tullio/.anaconda3/bin:/home/tullio/bin:/usr/local/bin:/opt/trinity/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games
 

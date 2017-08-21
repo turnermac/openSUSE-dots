@@ -17,9 +17,9 @@
 $firefox
 
 # Command Line History (newest to oldest):
+:q
 :q!
 :wq
-:q
 :%s/rowland/firefox
 :%s/computer/rowland/g
 :%s/machine/rowland/g
@@ -78,18 +78,20 @@ $firefox
 	n
 
 # File marks:
-'0  1  0  ~/.dotfiles_local/.profile
-'1  13  0  ~/.profile
-'2  197  17  ~/.gnupg/gpg.conf
-'3  51  16  ~/.Xresources
-'4  23  0  ~/textfiles/new
-'5  24  25  ~/.bashrc
-'6  10  25  ~/.Xresources
-'7  1  0  /opt/trinity/bin/compton-tde
-'8  4  6  ~/bin/xrdb_urxvt
-'9  5  22  ~/kemsly.github.io/terminal/main.css
+'0  2  0  ~/.dotfiles_local/.git/COMMIT_EDITMSG
+'1  1  0  ~/.dotfiles_local/.profile
+'2  13  0  ~/.profile
+'3  197  17  ~/.gnupg/gpg.conf
+'4  51  16  ~/.Xresources
+'5  23  0  ~/textfiles/new
+'6  24  25  ~/.bashrc
+'7  10  25  ~/.Xresources
+'8  1  0  /opt/trinity/bin/compton-tde
+'9  4  6  ~/bin/xrdb_urxvt
 
 # Jumplist (newest first):
+-'  2  0  ~/.dotfiles_local/.git/COMMIT_EDITMSG
+-'  1  0  ~/.dotfiles_local/.git/COMMIT_EDITMSG
 -'  1  0  ~/.dotfiles_local/.profile
 -'  13  0  ~/.profile
 -'  1  0  ~/.profile
@@ -187,9 +189,11 @@ $firefox
 -'  2  5  ~/textfiles/free
 -'  1  0  ~/textfiles/free
 -'  1  42  ~/.trinity/env/set_window_manager.sh
--'  7  0  ~/.bashrc
 
 # History of marks within files (newest to oldest):
+
+> ~/.dotfiles_local/.git/COMMIT_EDITMSG
+	"	2	0
 
 > ~/.dotfiles_local/.profile
 	"	1	0

@@ -367,3 +367,86 @@ git commit -m "dotfiles on openSUSE"
 git status
 git remote add origin git@github.com:turnermac/openSUSE-dots.git
 git push -u origin master
+cd .dotfiles_local/
+l
+cd
+. .bash_profile
+clear
+ls
+cd .dotfiles_local/
+clear
+cd
+find . -maxdepth 1 -type f 
+find . -maxdepth 1 -type f -name '*~'
+find . -maxdepth 1 -type f -name '*~' -delete
+find . -maxdepth 1 -type f
+find . -maxdepth 1 -type f -exec sh -c 'for i; do cp "${i}" .dotfiles_local; done' _ {} +
+cd .dotfiles_local/
+git status
+git add -A
+git status
+git commit -m "first update"
+git status
+git pull origin master
+git status
+git push -u origin master
+echo $PATH
+cd
+find . -maxdepth 1 -type f -name '*~' -delete
+find . -maxdepth 1 -type f -exec sh -c 'for i; do cp "${i}" .dotfiles_local; done' _ {} +
+cd .dotfiles_local/
+git status
+git add -A
+git status
+git commit
+git commit -m ".bashrc update"
+git status
+git push -u origin master
+exit
+ls
+echo $PS1
+cd dotfiles/
+ls
+l
+cd config/
+l
+cd ..
+l
+exit
+. .bashrc
+. .bash_prompt
+cd '/home/tullio'
+df -h
+l .bash_profile
+sudo su
+l
+l .bash*
+rm ./*~
+ls
+l
+l .bash*
+rm .bash_prompt~
+clear
+l .bash*
+rm .bashrc~
+clear
+rm .bashrc~
+cler
+clear
+l .bash*
+echo $PATH
+cd .dotfiles_local/
+clear
+ls -lF ${colorflag}
+dig +short myip.opendns.com @resolver1.opendns.com
+ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'
+sudo ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'
+find . -type f -name '*.DS_Store' -ls
+find . -type f -name '*.txt' -ls
+cd 
+cd textfiles/
+ls
+clear
+cd
+cd .dotfiles_local/
+clear

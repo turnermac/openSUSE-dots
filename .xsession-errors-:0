@@ -1043,3 +1043,113 @@ tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.c
 tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
 tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
 tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x720000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x740000a
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x760000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x780000a
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+tdeio (TDEIOConnection): ERROR: Could not write data (pid 1867 process "init] system /tmp/tdesocket-tullio/tdelauncherfwu")
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x7a0000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x800000a
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+tdeio (TDEIOConnection): ERROR: Could not write data (pid 1920 process "init] system /tmp/tdesocket-tullio/tdelauncherfwu")
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x820000a
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+tdeio (TDEIOConnection): ERROR: Could not write data (pid 2163 process "init] system /tmp/tdesocket-tullio/tdelauncherfwu")
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x840000a
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x7c0000a
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+TQColor::setRgb: RGB parameter(s) out of range
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x44018a9
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+tdeio (TDEIOConnection): ERROR: Could not write data (pid 2609 process "init] system /tmp/tdesocket-tullio/tdelauncherfwu")
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/block.brazil~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/index.html~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/main.css~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color_1.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/urxvt-256-color.sh~
+tdeio_trash: WARNING: couldn't stat /home/tullio/.local/share/Trash/files/shell.txt~
+TQFile::open: No file name specified
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x840000a
