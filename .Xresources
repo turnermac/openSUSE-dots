@@ -1,14 +1,3 @@
-Xft.dpi:                96
-Xft.antialias:          true
-Xft.hinting:            true
-Xft.rgba:               rgb
-Xft.autohint:           true
-Xft.hintstyle:          hintfull
-Xft.lcdfilter:          lcddefault
-
-URxvt.inputMethod: ibus
-URxvt.preeditType: OverTheSpot
-
 ! Clickble URLs
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/firefox
@@ -74,11 +63,8 @@ URxvt*scrollBar:        false
 *.color7: WHITE_D
 *.color15: WHITE_L
 
-
-URxvt*font:             xft:tewi:pixelsize=10
-URxvt*boldFont:         xft:tewi:pixelsize=10
-
-URxvt*internalBorder:   0
+URxvt*font:     xft:Droid Sans Mono:style=Regular:size=7
+URxvt*boldFont: xft:Droid Sans Fallback:style=Regular
 
 
 URxvt*perl-ext-common:  default,clipboard
@@ -88,35 +74,23 @@ URxvt*perl-ext:         default,clipboard
 !Appearance
 URxvt.saveLines:        12000
 URxvt.internalBorder:   20
-
+URxvt*fading:	30
+URxvt*fadeColor: black
 
 !XTERM Settings
-xterm*title:             xterm
-xterm*faceName:          tewi:pixelsize=9
-!xterm*faceName:          cure:Regular
-!xterm*boldfaceName:      cure:Regular
-!xterm*faceName:          tewi
-!xterm*faceSize:          8.7
-!xterm*boldfaceName:      Tewi
-xterm*geometry:          126x30
-!xterm*boldMode:         false
-xterm*cutNewline:        false
-xterm*on4Clicks:         group
-xterm*on5Clicks:         page
-xterm*internalBorder:    10
-xterm*background:        #262729
-xterm*foreground:        light grey
-xterm*metaSendsEscape:   true
-xterm*colorBD:           #ffffff
-xterm*colorBDMode:       false
-xterm*cursorBlink:       false
-xterm*cursorColor:       #e2baf1
-!xterm*veryBoldColors:    14
-xterm*dynamiccolors: true
-xterm*utf8: 1
-xterm*loginShell:        true
-xterm*ScrollBar:	 false
-xterm*charClass:         33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48,35:48,58:48,63:48,61:48,44:48,38:48,59:48
-xterm*jumpScroll:        true
-xterm*multiScroll:       true
-xterm*saveLines:         512
+XTerm*title: openSUSE
+XTerm*dynamicColors: true
+XTerm*faceName: xft:Droid Sans Mono:style=Regular:size=7
+XTerm*faceNameDoublesize: xft:Droid Sans Fallback:style=Regular
+XTerm*utf8: 		2
+XTerm*geometry: 	126x30
+XTerm*internalBorder:   10
+XTerm*background:       #262729
+XTerm*foreground:       light grey
+XTerm*metaSendsEscape:  true
+XTerm*colorBD:          #ffffff
+XTerm*colorBDMode:      false
+XTerm*cursorBlink:      false
+XTerm*cursorColor:	#e2baf1
+XTerm*ScrollBar: 	false
+XTerm*saveLines: 	512
