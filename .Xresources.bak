@@ -1,0 +1,95 @@
+! Clickble URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.keysym.C-Delete: perl:matcher:last
+URxvt.keysym.M-Delete: perl:matcher:list
+URxvt.matcher.rend.0: Uline Bold fg5
+
+URxvt*font:     xft:Droid Sans Mono:style=Regular:size=8
+!URxvt*boldFont: xft:Droid Sans Fallback:style=Regular
+
+URxvt.depth: 32
+URxvt*geometry:         120x30
+URxvt*scrollBar:        false
+
+! Color scheme
+#define BLACK_D #232323
+#define BLACK_L #494949
+
+#define GREY_D #7F7F7F
+#define GREY_L #AAAAAA
+
+#define WHITE_D #CCCCCC
+#define WHITE_L #EFEFEF
+
+#define RED_D #A8423E
+#define RED_L #DB5751
+
+#define FUSCHIA_D #8F288C
+#define FUSCHIA_L #C236BD
+
+#define PURPLE_D #59378A
+#define PURPLE_L #794BBD
+
+#define BLUE_D #4254A1
+#define BLUE_L #576FD4
+
+#define CYAN_D #48ADC9
+#define CYAN_L #5AD9FC
+
+! special
+*.foreground: #DFDFDF
+*.background: [85]#131313
+
+*.color0: BLACK_D
+*.color8: BLACK_L
+
+*.color1: RED_D
+*.color9: RED_L
+
+*.color2: FUSCHIA_D
+*.color10: FUSCHIA_L
+
+*.color3: PURPLE_D
+*.color11: PURPLE_L
+
+*.color4: BLUE_D
+*.color12: BLUE_L
+
+*.color5: CYAN_D
+*.color13: CYAN_L
+
+*.color6: GREY_D
+*.color14: GREY_L
+
+*.color7: WHITE_D
+*.color15: WHITE_L
+
+URxvt*perl-ext-common:  default,clipboard
+URxvt*perl-ext:         default,clipboard
+
+
+!Appearance
+URxvt.saveLines:        12000
+URxvt.internalBorder:   20
+URxvt*fading:	30
+URxvt*fadeColor: black
+
+!XTERM Settings
+XTerm*title: openSUSE
+XTerm*dynamicColors: true
+XTerm*faceName: xft:Droid Sans Mono:style=Regular:size=7
+XTerm*faceNameDoublesize: xft:Droid Sans Fallback:style=Regular
+XTerm*utf8: 		3
+XTerm*geometry: 	126x30
+XTerm*internalBorder:   10
+XTerm*background:       #262729
+XTerm*foreground:       light grey
+XTerm*metaSendsEscape:  true
+XTerm*colorBD:          #ffffff
+XTerm*colorBDMode:      false
+XTerm*cursorBlink:      false
+XTerm*cursorColor:	#e2baf1
+XTerm*ScrollBar: 	false
+XTerm*saveLines: 	512
