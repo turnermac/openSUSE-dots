@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=/home/tullio/.anaconda3/bin:/home/tullio/bin:/usr/local/bin:/opt/trinity/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games
+export PATH='/home/tullio/bin:/usr/local/bin:/opt/trinity/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/home/tullio/.anaconda3/bin/'
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

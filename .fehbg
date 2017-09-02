@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --image-bg black --bg-center '/home/tullio/.kde4/walls/amiga_walls/KittyPlayground_Blue_1920x1080.png'

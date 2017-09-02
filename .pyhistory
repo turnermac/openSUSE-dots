@@ -2,3 +2,44 @@ import numpy
 import mathplotlib
 import matplotlib
 quit()
+def n():
+	new = input("Yank: ")
+	Nnew = int(new)
+	print(Nnew)
+n()
+7575
+def m():
+	new = input("Yank: ")
+	if new:
+		Nnew = int(new)
+		print(Nnew)
+	else
+def m():
+	new = input("Yank: ")
+	if new:
+		Nnew = int(new)
+		print(Nnew)
+	else print("Huh")
+def m():
+	new = input("Yank: ")
+	if input:
+		nNew = int(new)
+		print(nNew)
+	else:
+		print("Ur a faggit")
+m
+m()
+232
+quit()
+def n():
+	new = input("Yank: ")
+	if new:
+		nNew = int(new)
+		print(nNew)
+	else:
+		print("Fag")
+n()
+123
+n()
+121.0
+quit()

@@ -10,7 +10,6 @@
 # are `none', `visible', and `audible' the ringing the bell.
 #
 #set bell-style none
-
 #
 # If set to on, words which have more than one possible completion without
 # any possible partial completion cause the matches to be listed immediately

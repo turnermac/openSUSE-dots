@@ -1,7 +1,7 @@
 [General]
 StandardFont=Ubuntu,9,-1,5,50,0,0,0,0,0
 activeFont=Ubuntu,8,-1,5,50,0,0,0,0,0
-background=75,123,131
+background=75,123,130
 fixed=tewi,8,-1,5,50,0,0,0,0,0
 font=Ubuntu,9,-1,5,50,0,0,0,0,0
 menuFont=Ubuntu,9,-1,5,50,0,0,0,0,0

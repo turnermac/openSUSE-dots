@@ -6,71 +6,65 @@ URxvt.keysym.C-Delete: perl:matcher:last
 URxvt.keysym.M-Delete: perl:matcher:list
 URxvt.matcher.rend.0: Uline Bold fg5
 
-URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=10,xft:PowerlineSymbols
-!URxvt*font:     xft:Droid Sans Mono:style=Regular:size=8
 !URxvt*boldFont: xft:Droid Sans Fallback:style=Regular
+URxvt.font: xft:Droid\ Sans\ Mono\ for\ Powerline:pixelsize=9,xft:PowerlineSymbols
 
 URxvt.depth: 32
 URxvt*geometry:         120x30
 URxvt*scrollBar:        false
 
 ! Color scheme
-#define S_base03        [75]#002b36
-#define S_base02        #073642
-#define S_base01        #586e75
-#define S_base00        #657b83
-#define S_base0         #839496
-#define S_base1         #93a1a1
-#define S_base2         #eee8d5
-#define S_base3         #fdf6e3
+#define BLACK_D #232323
+#define BLACK_L #494949
 
-*background:            S_base03
-*foreground:            S_base0
-*fadeColor:             S_base03
-*cursorColor:           S_base1
-*pointerColorBackground:S_base01
-*pointerColorForeground:S_base1
+#define GREY_D #7F7F7F
+#define GREY_L #AAAAAA
 
-#define S_yellow        #b58900
-#define S_orange        #cb4b16
-#define S_red           #dc322f
-#define S_magenta       #d33682
-#define S_violet        #6c71c4
-#define S_blue          #268bd2
-#define S_cyan          #2aa198
-#define S_green         #859900
+#define WHITE_D #CCCCCC
+#define WHITE_L #EFEFEF
 
-!! black dark/light
-*color0:                S_base02
-*color8:                S_base03
+#define RED_D #A8423E
+#define RED_L #DB5751
 
-!! red dark/light
-*color1:                S_red
-*color9:                S_orange
+#define FUSCHIA_D #8F288C
+#define FUSCHIA_L #C236BD
 
-!! green dark/light
-*color2:                S_green
-*color10:               S_base01
+#define PURPLE_D #59378A
+#define PURPLE_L #794BBD
 
-!! yellow dark/light
-*color3:                S_yellow
-*color11:               S_base00
+#define BLUE_D #4254A1
+#define BLUE_L #576FD4
 
-!! blue dark/light
-*color4:                S_blue
-*color12:               S_base0
+#define CYAN_D #48ADC9
+#define CYAN_L #5AD9FC
 
-!! magenta dark/light
-*color5:                S_magenta
-*color13:               S_violet
+! special
+*.foreground: #DFDFDF
+*.background: [85]#131313
 
-!! cyan dark/light
-*color6:                S_cyan
-*color14:               S_base1
+*.color0: BLACK_D
+*.color8: BLACK_L
 
-!! white dark/light
-*color7:                S_base2
-*color15:               S_base3
+*.color1: RED_D
+*.color9: RED_L
+
+*.color2: FUSCHIA_D
+*.color10: FUSCHIA_L
+
+*.color3: PURPLE_D
+*.color11: PURPLE_L
+
+*.color4: BLUE_D
+*.color12: BLUE_L
+
+*.color5: CYAN_D
+*.color13: CYAN_L
+
+*.color6: GREY_D
+*.color14: GREY_L
+
+*.color7: WHITE_D
+*.color15: WHITE_L
 
 URxvt*perl-ext-common:  default,clipboard
 URxvt*perl-ext:         default,clipboard
@@ -83,9 +77,9 @@ URxvt*fading:	30
 URxvt*fadeColor: black
 
 !XTERM Settings
-XTerm*title: openSUSE
+XTerm*title: "Xterm"
 XTerm*dynamicColors: true
-XTerm*faceName: xft:Droid Sans Mono:style=Regular:size=7
+XTerm*faceName:xft:Tewi:pixelsize=9,xft:PowerlineSymbols
 XTerm*faceNameDoublesize: xft:Droid Sans Fallback:style=Regular
 XTerm*utf8: 		3
 XTerm*geometry: 	126x30

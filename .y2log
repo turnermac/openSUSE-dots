@@ -916,3 +916,621 @@
 2017-08-18 17:55:35 <2> gentoo(3048) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
 2017-08-18 17:55:35 <1> gentoo(3048) [Y2Ruby] binary/YRuby.cc(~YRuby):117 Shutting down ruby interpreter.
 2017-08-18 17:55:35 <1> gentoo(3048) [Y2Perl] YPerl.cc(destroy):164 Shutting down embedded Perl interpreter.
+2017-08-27 09:29:12 <1> gentoo(11898) [Ruby] bin/y2start:16 y2base called with ["OneClickInstallUI", "--arg", "/tmp/mozilla_tullio0/snes9x.ymp", "qt"]
+2017-08-27 09:29:12 <1> gentoo(11898) [ui-component] YUIComponentCreator.cc(createInternal):124 Creating UI component for ""
+2017-08-27 09:29:12 <1> gentoo(11898) [Interpreter] bin/y2start:56 Calling YaST client OneClickInstallUI
+2017-08-27 09:29:12 <1> gentoo(11898) [Ruby] yast/wfm.rb:295 Call client /usr/share/YaST2/clients/OneClickInstallUI.rb
+2017-08-27 09:29:12 <1> gentoo(11898) [Pkg] PkgModule.cc(instance):68 Redirecting ZYPP log to y2log
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/PackageCallbacks.rb:135 PackageCallbacks constructor
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2631 Pkg Builtin called: CallbackProcessStart
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2634 Pkg Builtin called: CallbackProcessProgress
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2637 Pkg Builtin called: CallbackProcessNextStage
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2640 Pkg Builtin called: CallbackProcessDone
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2646 Pkg Builtin called: CallbackStartProvide
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2649 Pkg Builtin called: CallbackProgressProvide
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2652 Pkg Builtin called: CallbackDoneProvide
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2655 Pkg Builtin called: CallbackStartPackage
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2661 Pkg Builtin called: CallbackProgressPackage
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2664 Pkg Builtin called: CallbackDonePackage
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2672 Pkg Builtin called: CallbackStartDeltaDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2675 Pkg Builtin called: CallbackProgressDeltaDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2678 Pkg Builtin called: CallbackProblemDeltaDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2681 Pkg Builtin called: CallbackFinishDeltaDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2685 Pkg Builtin called: CallbackStartDeltaApply
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2688 Pkg Builtin called: CallbackProgressDeltaApply
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2691 Pkg Builtin called: CallbackProblemDeltaApply
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2694 Pkg Builtin called: CallbackFinishDeltaApply
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2583 Pkg Builtin called: CallbackSourceCreateStart
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2586 Pkg Builtin called: CallbackSourceCreateProgress
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2589 Pkg Builtin called: CallbackSourceCreateError
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2592 Pkg Builtin called: CallbackSourceCreateEnd
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2595 Pkg Builtin called: CallbackSourceCreateInit
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2598 Pkg Builtin called: CallbackSourceCreateDestroy
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2607 Pkg Builtin called: CallbackSourceProbeStart
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2610 Pkg Builtin called: CallbackSourceProbeFailed
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2613 Pkg Builtin called: CallbackSourceProbeSucceeded
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2616 Pkg Builtin called: CallbackSourceProbeProgress
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2619 Pkg Builtin called: CallbackSourceProbeError
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2622 Pkg Builtin called: CallbackSourceProbeEnd
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2703 Pkg Builtin called: CallbackSourceReportStart
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2706 Pkg Builtin called: CallbackSourceReportProgress
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2709 Pkg Builtin called: CallbackSourceReportError
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2715 Pkg Builtin called: CallbackSourceReportEnd
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2721 Pkg Builtin called: CallbackSourceReportInit
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2724 Pkg Builtin called: CallbackSourceReportDestroy
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2732 Pkg Builtin called: CallbackProgressReportStart
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2738 Pkg Builtin called: CallbackProgressReportProgress
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2744 Pkg Builtin called: CallbackProgressReportEnd
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] packages/file_conflict_callbacks.rb:56 Registering file conflict callbacks
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] packages/file_conflict_callbacks.rb:58 Pkg Builtin called: CallbackFileConflictStart
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] packages/file_conflict_callbacks.rb:59 Pkg Builtin called: CallbackFileConflictProgress
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] packages/file_conflict_callbacks.rb:61 Pkg Builtin called: CallbackFileConflictReport
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] packages/file_conflict_callbacks.rb:63 Pkg Builtin called: CallbackFileConflictFinish
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2774 Pkg Builtin called: CallbackAuthentication
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2786 Pkg Builtin called: CallbackAcceptUnsignedFile
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2792 Pkg Builtin called: CallbackAcceptUnknownGpgKey
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2801 Pkg Builtin called: CallbackImportGpgKey
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2807 Pkg Builtin called: CallbackAcceptVerificationFailed
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2813 Pkg Builtin called: CallbackTrustedKeyAdded
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2819 Pkg Builtin called: CallbackTrustedKeyRemoved
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2825 Pkg Builtin called: CallbackAcceptFileWithoutChecksum
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2831 Pkg Builtin called: CallbackAcceptWrongDigest
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2837 Pkg Builtin called: CallbackAcceptUnknownDigest
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2481 Pkg Builtin called: CallbackMediaChange
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2487 Pkg Builtin called: CallbackSourceChange
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2506 Pkg Builtin called: CallbackScriptStart
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2509 Pkg Builtin called: CallbackScriptProgress
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2512 Pkg Builtin called: CallbackScriptProblem
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2515 Pkg Builtin called: CallbackScriptFinish
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2517 Pkg Builtin called: CallbackMessage
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2525 Pkg Builtin called: CallbackStartScanDb
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2526 Pkg Builtin called: CallbackProgressScanDb
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2529 Pkg Builtin called: CallbackErrorScanDb
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2532 Pkg Builtin called: CallbackDoneScanDb
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2549 Pkg Builtin called: CallbackInitDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2550 Pkg Builtin called: CallbackStartDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2553 Pkg Builtin called: CallbackProgressDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2559 Pkg Builtin called: CallbackDoneDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2562 Pkg Builtin called: CallbackDestDownload
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2563 Pkg Builtin called: CallbackStartRefresh
+2017-08-27 09:29:13 <1> gentoo(11898) [Pkg] modules/PackageCallbacks.rb:2564 Pkg Builtin called: CallbackDoneRefresh
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Encoding.rb:77 list ["charmap=\"UTF-8\"", ""]
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Encoding.rb:80 list ["charmap=\"UTF-8\""]
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Encoding.rb:84 enc "UTF-8"
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Encoding.rb:86 enc UTF-8
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Encoding.rb:89 encoding UTF-8
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Misc.rb:188 .sysconfig.language.RC_LANG: 'en_US.UTF-8'
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Language.rb:562 language from sysconfig: en_US
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Language.rb:498 original language: en_US; setting to lang:en_US
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Language.rb:543 Setting default language: en_US
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Misc.rb:188 .sysconfig.language.ROOT_USES_LANG: 'ctype'
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Misc.rb:188 .sysconfig.language.RC_LANG: 'en_US.UTF-8'
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Misc.rb:188 .sysconfig.language.INSTALLED_LANGUAGES: 'ja_JP,ru_RU,en_US'
+2017-08-27 09:29:13 <1> gentoo(11898) [Ruby] modules/Encoding.rb:116 SetUtf8Lang true
+2017-08-27 09:29:13 <1> gentoo(11898) [Y2Perl] Y2PerlComponent.cc(Y2PerlComponent):35 Creating Y2PerlComponent
+2017-08-27 09:29:14 <1> gentoo(11898) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."NAME": 'openSUSE Leap'
+2017-08-27 09:29:14 <1> gentoo(11898) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."VERSION_ID": '42.3'
+2017-08-27 09:29:14 <1> gentoo(11898) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."PRETTY_NAME": 'openSUSE Leap 42.3'
+2017-08-27 09:29:14 <1> gentoo(11898) [Ruby] modules/ProductControl.rb:1193 Candidates: ["/y2update/control.xml", "/control.xml", "/etc/YaST2/control.xml"]
+2017-08-27 09:29:14 <1> gentoo(11898) [Ruby] modules/ProductControl.rb:1201 Reading control file: /etc/YaST2/control.xml
+2017-08-27 09:29:14 <1> gentoo(11898) [Ruby] modules/XML.rb:135 Reading /etc/YaST2/control.xml
+2017-08-27 09:29:14 <1> gentoo(11898) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:29:14 <1> gentoo(11898) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:29:14 <1> gentoo(11898) [Ruby] modules/XML.rb:135 Reading /home/tullio/.y2usersettings
+2017-08-27 09:29:14 <1> gentoo(11898) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:29:14 <1> gentoo(11898) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YSettings.cc(setProgDir):60 Set progDir to "/usr/share/YaST2"
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YSettings.cc(setProgDir):61 progDir is now locked.
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YSettings.cc(setLocaleDir):146 Set localeDir to "/usr/share/YaST2/locale"
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YSettings.cc(setLocaleDir):147 localeDir is now locked.
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YPath.cc(YPath):49 Given filename: libyui-qt.so.7
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YSettings.cc(progDir):73 progDir: "/usr/share/YaST2"
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YPath.cc(YPath):65 Preferring subdir: /usr/share/YaST2
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YPath.cc(YPath):66 Subdir given with filename: 
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YPath.cc(YPath):67 Looking for: libyui-qt.so.7
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YPath.cc(lsDir):138 Looking in /usr/lib64/yui
+2017-08-27 09:29:14 <1> gentoo(11898) [ui] YPath.cc(YPath):118 Found libyui-qt.so.7 in /usr/lib64/yui
+2017-08-27 09:29:15 <1> gentoo(11898) [ui] YUI.cc(YUI):76 This is libyui 3.2.9
+2017-08-27 09:29:15 <1> gentoo(11898) [ui] YUI.cc(YUI):77 Creating UI with threads
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(YQUI):100 This is libyui-qt 2.47.1
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-styler] QY2Styler.cc(loadStyleSheet):141 Couldn't open style sheet "/usr/share/YaST2/theme/current/wizard/style.qss"
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /usr/bin/ruby
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /usr/lib/YaST2/bin/y2start
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: OneClickInstallUI
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: --arg
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /tmp/mozilla_tullio0/snes9x.ymp
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: qt
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(calcDefaultSize):439 Default size: 1120 x 600
+2017-08-27 09:29:15 <3> gentoo(11898) [qt-ui] YQUI.cc(initUI):262 Forcing /libQtGui.so.5 open failed
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQApplication.cc(loadPredefinedQtTranslations):133 Selected language: en_US
+2017-08-27 09:29:15 <2> gentoo(11898) [qt-ui] YQApplication.cc(loadPredefinedQtTranslations):137 Qt locale directory not set - no translations for predefined Qt dialogs
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(initUI):273 YQUI initialized. Thread ID: 0x0x7f63882c8700
+2017-08-27 09:29:15 <1> gentoo(11898) [ui] YCP_UI.cc(SetApplicationIcon):1705 Setting application icon to "/usr/share/YaST2/theme/current/icons/64x64/apps/yast.png"
+2017-08-27 09:29:15 <1> gentoo(11898) [ui] YSettings.cc(localeDir):161 localeDir: "/usr/share/YaST2/locale"
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(qMessageHandler):665 <libqt-debug> Registering  QFrame(0x7f63802dfdb0, name="steps")  for parent  YQWizard(0x7f63802de9b0, name="wizard") 
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(qMessageHandler):665 
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(qMessageHandler):665 <libqt-debug> Registering  QWidget(0x7f63802eb560, name="work_area")  for parent  YQWizard(0x7f63802de9b0, name="wizard") 
+2017-08-27 09:29:15 <1> gentoo(11898) [qt-ui] YQUI.cc(qMessageHandler):665 
+2017-08-27 09:29:15 <2> gentoo(11898) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QLayout: Attempting to add QLayout "" to QFrame "", which already has a layout
+2017-08-27 09:29:15 <1> gentoo(11898) [ui] YPushButton.cc(setFunctionKey):202 Guessing button role YHelpButton for YPushButton "Help" at 0x7f63802def90 from function key F1
+2017-08-27 09:29:15 <1> gentoo(11898) [ui] YPushButton.cc(setFunctionKey):202 Guessing button role YOKButton for YPushButton "Next" at 0x7f638034e090 from function key F10
+2017-08-27 09:29:15 <1> gentoo(11898) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:29:15 <1> gentoo(11898) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:29:17 <1> gentoo(11898) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:29:19 <1> gentoo(11898) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:29:21 <1> gentoo(11898) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:29:39 <1> gentoo(11898) [Ruby] modules/XML.rb:135 Reading /tmp/YaST2-11898-U7bVyd/oneclickinstall.xml
+2017-08-27 09:29:39 <1> gentoo(11898) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:29:39 <1> gentoo(11898) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:29:39 <1> gentoo(11898) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:29:44 <1> gentoo(11898) [Interpreter] bin/y2start:56 Called YaST client returned.
+2017-08-27 09:29:44 <2> gentoo(11898) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::killTimer: Timers cannot be stopped from another thread
+2017-08-27 09:29:44 <2> gentoo(11898) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
+2017-08-27 09:29:44 <2> gentoo(11898) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
+2017-08-27 09:29:44 <1> gentoo(11898) [Y2Ruby] binary/YRuby.cc(~YRuby):117 Shutting down ruby interpreter.
+2017-08-27 09:29:44 <1> gentoo(11898) [Y2Perl] YPerl.cc(destroy):164 Shutting down embedded Perl interpreter.
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] bin/y2start:16 y2base called with ["OneClickInstallUI", "--arg", "/tmp/mozilla_tullio0/snes9x-1.ymp", "qt"]
+2017-08-27 09:30:46 <1> gentoo(12154) [ui-component] YUIComponentCreator.cc(createInternal):124 Creating UI component for ""
+2017-08-27 09:30:46 <1> gentoo(12154) [Interpreter] bin/y2start:56 Calling YaST client OneClickInstallUI
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] yast/wfm.rb:295 Call client /usr/share/YaST2/clients/OneClickInstallUI.rb
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] PkgModule.cc(instance):68 Redirecting ZYPP log to y2log
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/PackageCallbacks.rb:135 PackageCallbacks constructor
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2631 Pkg Builtin called: CallbackProcessStart
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2634 Pkg Builtin called: CallbackProcessProgress
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2637 Pkg Builtin called: CallbackProcessNextStage
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2640 Pkg Builtin called: CallbackProcessDone
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2646 Pkg Builtin called: CallbackStartProvide
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2649 Pkg Builtin called: CallbackProgressProvide
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2652 Pkg Builtin called: CallbackDoneProvide
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2655 Pkg Builtin called: CallbackStartPackage
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2661 Pkg Builtin called: CallbackProgressPackage
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2664 Pkg Builtin called: CallbackDonePackage
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2672 Pkg Builtin called: CallbackStartDeltaDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2675 Pkg Builtin called: CallbackProgressDeltaDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2678 Pkg Builtin called: CallbackProblemDeltaDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2681 Pkg Builtin called: CallbackFinishDeltaDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2685 Pkg Builtin called: CallbackStartDeltaApply
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2688 Pkg Builtin called: CallbackProgressDeltaApply
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2691 Pkg Builtin called: CallbackProblemDeltaApply
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2694 Pkg Builtin called: CallbackFinishDeltaApply
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2583 Pkg Builtin called: CallbackSourceCreateStart
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2586 Pkg Builtin called: CallbackSourceCreateProgress
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2589 Pkg Builtin called: CallbackSourceCreateError
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2592 Pkg Builtin called: CallbackSourceCreateEnd
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2595 Pkg Builtin called: CallbackSourceCreateInit
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2598 Pkg Builtin called: CallbackSourceCreateDestroy
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2607 Pkg Builtin called: CallbackSourceProbeStart
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2610 Pkg Builtin called: CallbackSourceProbeFailed
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2613 Pkg Builtin called: CallbackSourceProbeSucceeded
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2616 Pkg Builtin called: CallbackSourceProbeProgress
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2619 Pkg Builtin called: CallbackSourceProbeError
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2622 Pkg Builtin called: CallbackSourceProbeEnd
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2703 Pkg Builtin called: CallbackSourceReportStart
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2706 Pkg Builtin called: CallbackSourceReportProgress
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2709 Pkg Builtin called: CallbackSourceReportError
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2715 Pkg Builtin called: CallbackSourceReportEnd
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2721 Pkg Builtin called: CallbackSourceReportInit
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2724 Pkg Builtin called: CallbackSourceReportDestroy
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2732 Pkg Builtin called: CallbackProgressReportStart
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2738 Pkg Builtin called: CallbackProgressReportProgress
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2744 Pkg Builtin called: CallbackProgressReportEnd
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] packages/file_conflict_callbacks.rb:56 Registering file conflict callbacks
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] packages/file_conflict_callbacks.rb:58 Pkg Builtin called: CallbackFileConflictStart
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] packages/file_conflict_callbacks.rb:59 Pkg Builtin called: CallbackFileConflictProgress
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] packages/file_conflict_callbacks.rb:61 Pkg Builtin called: CallbackFileConflictReport
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] packages/file_conflict_callbacks.rb:63 Pkg Builtin called: CallbackFileConflictFinish
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2774 Pkg Builtin called: CallbackAuthentication
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2786 Pkg Builtin called: CallbackAcceptUnsignedFile
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2792 Pkg Builtin called: CallbackAcceptUnknownGpgKey
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2801 Pkg Builtin called: CallbackImportGpgKey
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2807 Pkg Builtin called: CallbackAcceptVerificationFailed
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2813 Pkg Builtin called: CallbackTrustedKeyAdded
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2819 Pkg Builtin called: CallbackTrustedKeyRemoved
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2825 Pkg Builtin called: CallbackAcceptFileWithoutChecksum
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2831 Pkg Builtin called: CallbackAcceptWrongDigest
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2837 Pkg Builtin called: CallbackAcceptUnknownDigest
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2481 Pkg Builtin called: CallbackMediaChange
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2487 Pkg Builtin called: CallbackSourceChange
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2506 Pkg Builtin called: CallbackScriptStart
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2509 Pkg Builtin called: CallbackScriptProgress
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2512 Pkg Builtin called: CallbackScriptProblem
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2515 Pkg Builtin called: CallbackScriptFinish
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2517 Pkg Builtin called: CallbackMessage
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2525 Pkg Builtin called: CallbackStartScanDb
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2526 Pkg Builtin called: CallbackProgressScanDb
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2529 Pkg Builtin called: CallbackErrorScanDb
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2532 Pkg Builtin called: CallbackDoneScanDb
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2549 Pkg Builtin called: CallbackInitDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2550 Pkg Builtin called: CallbackStartDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2553 Pkg Builtin called: CallbackProgressDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2559 Pkg Builtin called: CallbackDoneDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2562 Pkg Builtin called: CallbackDestDownload
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2563 Pkg Builtin called: CallbackStartRefresh
+2017-08-27 09:30:46 <1> gentoo(12154) [Pkg] modules/PackageCallbacks.rb:2564 Pkg Builtin called: CallbackDoneRefresh
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Encoding.rb:77 list ["charmap=\"UTF-8\"", ""]
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Encoding.rb:80 list ["charmap=\"UTF-8\""]
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Encoding.rb:84 enc "UTF-8"
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Encoding.rb:86 enc UTF-8
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Encoding.rb:89 encoding UTF-8
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Misc.rb:188 .sysconfig.language.RC_LANG: 'en_US.UTF-8'
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Language.rb:562 language from sysconfig: en_US
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Language.rb:498 original language: en_US; setting to lang:en_US
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Language.rb:543 Setting default language: en_US
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Misc.rb:188 .sysconfig.language.ROOT_USES_LANG: 'ctype'
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Misc.rb:188 .sysconfig.language.RC_LANG: 'en_US.UTF-8'
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Misc.rb:188 .sysconfig.language.INSTALLED_LANGUAGES: 'ja_JP,ru_RU,en_US'
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Encoding.rb:116 SetUtf8Lang true
+2017-08-27 09:30:46 <1> gentoo(12154) [Y2Perl] Y2PerlComponent.cc(Y2PerlComponent):35 Creating Y2PerlComponent
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."NAME": 'openSUSE Leap'
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."VERSION_ID": '42.3'
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."PRETTY_NAME": 'openSUSE Leap 42.3'
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/ProductControl.rb:1193 Candidates: ["/y2update/control.xml", "/control.xml", "/etc/YaST2/control.xml"]
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/ProductControl.rb:1201 Reading control file: /etc/YaST2/control.xml
+2017-08-27 09:30:46 <1> gentoo(12154) [Ruby] modules/XML.rb:135 Reading /etc/YaST2/control.xml
+2017-08-27 09:30:46 <1> gentoo(12154) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:30:46 <1> gentoo(12154) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:30:47 <1> gentoo(12154) [Ruby] modules/XML.rb:135 Reading /home/tullio/.y2usersettings
+2017-08-27 09:30:47 <1> gentoo(12154) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:30:47 <1> gentoo(12154) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YSettings.cc(setProgDir):60 Set progDir to "/usr/share/YaST2"
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YSettings.cc(setProgDir):61 progDir is now locked.
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YSettings.cc(setLocaleDir):146 Set localeDir to "/usr/share/YaST2/locale"
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YSettings.cc(setLocaleDir):147 localeDir is now locked.
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YPath.cc(YPath):49 Given filename: libyui-qt.so.7
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YSettings.cc(progDir):73 progDir: "/usr/share/YaST2"
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YPath.cc(YPath):65 Preferring subdir: /usr/share/YaST2
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YPath.cc(YPath):66 Subdir given with filename: 
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YPath.cc(YPath):67 Looking for: libyui-qt.so.7
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YPath.cc(lsDir):138 Looking in /usr/lib64/yui
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YPath.cc(YPath):118 Found libyui-qt.so.7 in /usr/lib64/yui
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YUI.cc(YUI):76 This is libyui 3.2.9
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YUI.cc(YUI):77 Creating UI with threads
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(YQUI):100 This is libyui-qt 2.47.1
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-styler] QY2Styler.cc(loadStyleSheet):141 Couldn't open style sheet "/usr/share/YaST2/theme/current/wizard/style.qss"
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /usr/bin/ruby
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /usr/lib/YaST2/bin/y2start
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: OneClickInstallUI
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: --arg
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /tmp/mozilla_tullio0/snes9x-1.ymp
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: qt
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(calcDefaultSize):439 Default size: 1120 x 600
+2017-08-27 09:30:47 <3> gentoo(12154) [qt-ui] YQUI.cc(initUI):262 Forcing /libQtGui.so.5 open failed
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQApplication.cc(loadPredefinedQtTranslations):133 Selected language: en_US
+2017-08-27 09:30:47 <2> gentoo(12154) [qt-ui] YQApplication.cc(loadPredefinedQtTranslations):137 Qt locale directory not set - no translations for predefined Qt dialogs
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(initUI):273 YQUI initialized. Thread ID: 0x0x7fd059600700
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YCP_UI.cc(SetApplicationIcon):1705 Setting application icon to "/usr/share/YaST2/theme/current/icons/64x64/apps/yast.png"
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YSettings.cc(localeDir):161 localeDir: "/usr/share/YaST2/locale"
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(qMessageHandler):665 <libqt-debug> Registering  QFrame(0x7fd0542df1e0, name="steps")  for parent  YQWizard(0x7fd0542de7f0, name="wizard") 
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(qMessageHandler):665 
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(qMessageHandler):665 <libqt-debug> Registering  QWidget(0x7fd0542eb930, name="work_area")  for parent  YQWizard(0x7fd0542de7f0, name="wizard") 
+2017-08-27 09:30:47 <1> gentoo(12154) [qt-ui] YQUI.cc(qMessageHandler):665 
+2017-08-27 09:30:47 <2> gentoo(12154) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QLayout: Attempting to add QLayout "" to QFrame "", which already has a layout
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YPushButton.cc(setFunctionKey):202 Guessing button role YHelpButton for YPushButton "Help" at 0x7fd0542ee450 from function key F1
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YPushButton.cc(setFunctionKey):202 Guessing button role YOKButton for YPushButton "Next" at 0x7fd05454b390 from function key F10
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:30:47 <1> gentoo(12154) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:30:49 <1> gentoo(12154) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:30:50 <1> gentoo(12154) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:30:52 <1> gentoo(12154) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:31:12 <1> gentoo(12154) [Ruby] modules/XML.rb:135 Reading /tmp/YaST2-12154-pK5EIg/oneclickinstall.xml
+2017-08-27 09:31:12 <1> gentoo(12154) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:31:12 <1> gentoo(12154) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:31:12 <1> gentoo(12154) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:31:19 <1> gentoo(12154) [Interpreter] bin/y2start:56 Called YaST client returned.
+2017-08-27 09:31:19 <2> gentoo(12154) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::killTimer: Timers cannot be stopped from another thread
+2017-08-27 09:31:19 <2> gentoo(12154) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
+2017-08-27 09:31:19 <2> gentoo(12154) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
+2017-08-27 09:31:19 <1> gentoo(12154) [Y2Ruby] binary/YRuby.cc(~YRuby):117 Shutting down ruby interpreter.
+2017-08-27 09:31:19 <1> gentoo(12154) [Y2Perl] YPerl.cc(destroy):164 Shutting down embedded Perl interpreter.
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] bin/y2start:16 y2base called with ["OneClickInstallUI", "--arg", "/tmp/mozilla_tullio0/snes9x-2.ymp", "qt"]
+2017-08-27 09:36:10 <1> gentoo(12543) [ui-component] YUIComponentCreator.cc(createInternal):124 Creating UI component for ""
+2017-08-27 09:36:10 <1> gentoo(12543) [Interpreter] bin/y2start:56 Calling YaST client OneClickInstallUI
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] yast/wfm.rb:295 Call client /usr/share/YaST2/clients/OneClickInstallUI.rb
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] PkgModule.cc(instance):68 Redirecting ZYPP log to y2log
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/PackageCallbacks.rb:135 PackageCallbacks constructor
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2631 Pkg Builtin called: CallbackProcessStart
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2634 Pkg Builtin called: CallbackProcessProgress
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2637 Pkg Builtin called: CallbackProcessNextStage
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2640 Pkg Builtin called: CallbackProcessDone
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2646 Pkg Builtin called: CallbackStartProvide
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2649 Pkg Builtin called: CallbackProgressProvide
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2652 Pkg Builtin called: CallbackDoneProvide
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2655 Pkg Builtin called: CallbackStartPackage
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2661 Pkg Builtin called: CallbackProgressPackage
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2664 Pkg Builtin called: CallbackDonePackage
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2672 Pkg Builtin called: CallbackStartDeltaDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2675 Pkg Builtin called: CallbackProgressDeltaDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2678 Pkg Builtin called: CallbackProblemDeltaDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2681 Pkg Builtin called: CallbackFinishDeltaDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2685 Pkg Builtin called: CallbackStartDeltaApply
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2688 Pkg Builtin called: CallbackProgressDeltaApply
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2691 Pkg Builtin called: CallbackProblemDeltaApply
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2694 Pkg Builtin called: CallbackFinishDeltaApply
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2583 Pkg Builtin called: CallbackSourceCreateStart
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2586 Pkg Builtin called: CallbackSourceCreateProgress
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2589 Pkg Builtin called: CallbackSourceCreateError
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2592 Pkg Builtin called: CallbackSourceCreateEnd
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2595 Pkg Builtin called: CallbackSourceCreateInit
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2598 Pkg Builtin called: CallbackSourceCreateDestroy
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2607 Pkg Builtin called: CallbackSourceProbeStart
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2610 Pkg Builtin called: CallbackSourceProbeFailed
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2613 Pkg Builtin called: CallbackSourceProbeSucceeded
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2616 Pkg Builtin called: CallbackSourceProbeProgress
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2619 Pkg Builtin called: CallbackSourceProbeError
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2622 Pkg Builtin called: CallbackSourceProbeEnd
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2703 Pkg Builtin called: CallbackSourceReportStart
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2706 Pkg Builtin called: CallbackSourceReportProgress
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2709 Pkg Builtin called: CallbackSourceReportError
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2715 Pkg Builtin called: CallbackSourceReportEnd
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2721 Pkg Builtin called: CallbackSourceReportInit
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2724 Pkg Builtin called: CallbackSourceReportDestroy
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2732 Pkg Builtin called: CallbackProgressReportStart
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2738 Pkg Builtin called: CallbackProgressReportProgress
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2744 Pkg Builtin called: CallbackProgressReportEnd
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] packages/file_conflict_callbacks.rb:56 Registering file conflict callbacks
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] packages/file_conflict_callbacks.rb:58 Pkg Builtin called: CallbackFileConflictStart
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] packages/file_conflict_callbacks.rb:59 Pkg Builtin called: CallbackFileConflictProgress
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] packages/file_conflict_callbacks.rb:61 Pkg Builtin called: CallbackFileConflictReport
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] packages/file_conflict_callbacks.rb:63 Pkg Builtin called: CallbackFileConflictFinish
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2774 Pkg Builtin called: CallbackAuthentication
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2786 Pkg Builtin called: CallbackAcceptUnsignedFile
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2792 Pkg Builtin called: CallbackAcceptUnknownGpgKey
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2801 Pkg Builtin called: CallbackImportGpgKey
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2807 Pkg Builtin called: CallbackAcceptVerificationFailed
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2813 Pkg Builtin called: CallbackTrustedKeyAdded
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2819 Pkg Builtin called: CallbackTrustedKeyRemoved
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2825 Pkg Builtin called: CallbackAcceptFileWithoutChecksum
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2831 Pkg Builtin called: CallbackAcceptWrongDigest
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2837 Pkg Builtin called: CallbackAcceptUnknownDigest
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2481 Pkg Builtin called: CallbackMediaChange
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2487 Pkg Builtin called: CallbackSourceChange
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2506 Pkg Builtin called: CallbackScriptStart
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2509 Pkg Builtin called: CallbackScriptProgress
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2512 Pkg Builtin called: CallbackScriptProblem
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2515 Pkg Builtin called: CallbackScriptFinish
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2517 Pkg Builtin called: CallbackMessage
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2525 Pkg Builtin called: CallbackStartScanDb
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2526 Pkg Builtin called: CallbackProgressScanDb
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2529 Pkg Builtin called: CallbackErrorScanDb
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2532 Pkg Builtin called: CallbackDoneScanDb
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2549 Pkg Builtin called: CallbackInitDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2550 Pkg Builtin called: CallbackStartDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2553 Pkg Builtin called: CallbackProgressDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2559 Pkg Builtin called: CallbackDoneDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2562 Pkg Builtin called: CallbackDestDownload
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2563 Pkg Builtin called: CallbackStartRefresh
+2017-08-27 09:36:10 <1> gentoo(12543) [Pkg] modules/PackageCallbacks.rb:2564 Pkg Builtin called: CallbackDoneRefresh
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Encoding.rb:77 list ["charmap=\"UTF-8\"", ""]
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Encoding.rb:80 list ["charmap=\"UTF-8\""]
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Encoding.rb:84 enc "UTF-8"
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Encoding.rb:86 enc UTF-8
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Encoding.rb:89 encoding UTF-8
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Misc.rb:188 .sysconfig.language.RC_LANG: 'en_US.UTF-8'
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Language.rb:562 language from sysconfig: en_US
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Language.rb:498 original language: en_US; setting to lang:en_US
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Language.rb:543 Setting default language: en_US
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Misc.rb:188 .sysconfig.language.ROOT_USES_LANG: 'ctype'
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Misc.rb:188 .sysconfig.language.RC_LANG: 'en_US.UTF-8'
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Misc.rb:188 .sysconfig.language.INSTALLED_LANGUAGES: 'ja_JP,ru_RU,en_US'
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Encoding.rb:116 SetUtf8Lang true
+2017-08-27 09:36:10 <1> gentoo(12543) [Y2Perl] Y2PerlComponent.cc(Y2PerlComponent):35 Creating Y2PerlComponent
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."NAME": 'openSUSE Leap'
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."VERSION_ID": '42.3'
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."PRETTY_NAME": 'openSUSE Leap 42.3'
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/ProductControl.rb:1193 Candidates: ["/y2update/control.xml", "/control.xml", "/etc/YaST2/control.xml"]
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/ProductControl.rb:1201 Reading control file: /etc/YaST2/control.xml
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/XML.rb:135 Reading /etc/YaST2/control.xml
+2017-08-27 09:36:10 <1> gentoo(12543) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:36:10 <1> gentoo(12543) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:36:10 <1> gentoo(12543) [Ruby] modules/XML.rb:135 Reading /home/tullio/.y2usersettings
+2017-08-27 09:36:10 <1> gentoo(12543) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:36:10 <1> gentoo(12543) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YSettings.cc(setProgDir):60 Set progDir to "/usr/share/YaST2"
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YSettings.cc(setProgDir):61 progDir is now locked.
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YSettings.cc(setLocaleDir):146 Set localeDir to "/usr/share/YaST2/locale"
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YSettings.cc(setLocaleDir):147 localeDir is now locked.
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YPath.cc(YPath):49 Given filename: libyui-qt.so.7
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YSettings.cc(progDir):73 progDir: "/usr/share/YaST2"
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YPath.cc(YPath):65 Preferring subdir: /usr/share/YaST2
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YPath.cc(YPath):66 Subdir given with filename: 
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YPath.cc(YPath):67 Looking for: libyui-qt.so.7
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YPath.cc(lsDir):138 Looking in /usr/lib64/yui
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YPath.cc(YPath):118 Found libyui-qt.so.7 in /usr/lib64/yui
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YUI.cc(YUI):76 This is libyui 3.2.9
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YUI.cc(YUI):77 Creating UI with threads
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(YQUI):100 This is libyui-qt 2.47.1
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-styler] QY2Styler.cc(loadStyleSheet):141 Couldn't open style sheet "/usr/share/YaST2/theme/current/wizard/style.qss"
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /usr/bin/ruby
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /usr/lib/YaST2/bin/y2start
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: OneClickInstallUI
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: --arg
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /tmp/mozilla_tullio0/snes9x-2.ymp
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: qt
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(calcDefaultSize):439 Default size: 1120 x 600
+2017-08-27 09:36:10 <3> gentoo(12543) [qt-ui] YQUI.cc(initUI):262 Forcing /libQtGui.so.5 open failed
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQApplication.cc(loadPredefinedQtTranslations):133 Selected language: en_US
+2017-08-27 09:36:10 <2> gentoo(12543) [qt-ui] YQApplication.cc(loadPredefinedQtTranslations):137 Qt locale directory not set - no translations for predefined Qt dialogs
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(initUI):273 YQUI initialized. Thread ID: 0x0x7f6be4cf2700
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YCP_UI.cc(SetApplicationIcon):1705 Setting application icon to "/usr/share/YaST2/theme/current/icons/64x64/apps/yast.png"
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YSettings.cc(localeDir):161 localeDir: "/usr/share/YaST2/locale"
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(qMessageHandler):665 <libqt-debug> Registering  QFrame(0x7f6be02dfe00, name="steps")  for parent  YQWizard(0x7f6be02de820, name="wizard") 
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(qMessageHandler):665 
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(qMessageHandler):665 <libqt-debug> Registering  QWidget(0x7f6be02eb510, name="work_area")  for parent  YQWizard(0x7f6be02de820, name="wizard") 
+2017-08-27 09:36:10 <1> gentoo(12543) [qt-ui] YQUI.cc(qMessageHandler):665 
+2017-08-27 09:36:10 <2> gentoo(12543) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QLayout: Attempting to add QLayout "" to QFrame "", which already has a layout
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YPushButton.cc(setFunctionKey):202 Guessing button role YHelpButton for YPushButton "Help" at 0x7f6be02ee310 from function key F1
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YPushButton.cc(setFunctionKey):202 Guessing button role YOKButton for YPushButton "Next" at 0x7f6be053b3f0 from function key F10
+2017-08-27 09:36:10 <1> gentoo(12543) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:36:11 <1> gentoo(12543) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:36:13 <1> gentoo(12543) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:36:14 <1> gentoo(12543) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:36:20 <1> gentoo(12543) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:36:45 <1> gentoo(12543) [Ruby] modules/XML.rb:135 Reading /tmp/YaST2-12543-kDb447/oneclickinstall.xml
+2017-08-27 09:36:45 <1> gentoo(12543) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-27 09:36:45 <1> gentoo(12543) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-27 09:36:45 <1> gentoo(12543) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-27 09:36:53 <1> gentoo(12543) [qt-ui] YQMainWinDock.cc(closeEvent):303 Caught window manager close event - returning with YCancelEvent
+2017-08-27 09:36:53 <1> gentoo(12543) [Interpreter] bin/y2start:56 Called YaST client returned.
+2017-08-27 09:36:53 <2> gentoo(12543) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::killTimer: Timers cannot be stopped from another thread
+2017-08-27 09:36:53 <2> gentoo(12543) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
+2017-08-27 09:36:53 <2> gentoo(12543) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
+2017-08-27 09:36:53 <1> gentoo(12543) [Y2Ruby] binary/YRuby.cc(~YRuby):117 Shutting down ruby interpreter.
+2017-08-27 09:36:53 <1> gentoo(12543) [Y2Perl] YPerl.cc(destroy):164 Shutting down embedded Perl interpreter.
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] bin/y2start:16 y2base called with ["OneClickInstallUI", "--arg", "/tmp/mozilla_tullio0/bash.ymp", "qt"]
+2017-08-29 08:47:34 <1> gentoo(18648) [ui-component] YUIComponentCreator.cc(createInternal):124 Creating UI component for ""
+2017-08-29 08:47:34 <1> gentoo(18648) [Interpreter] bin/y2start:56 Calling YaST client OneClickInstallUI
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] yast/wfm.rb:295 Call client /usr/share/YaST2/clients/OneClickInstallUI.rb
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] PkgModule.cc(instance):68 Redirecting ZYPP log to y2log
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] modules/PackageCallbacks.rb:135 PackageCallbacks constructor
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2631 Pkg Builtin called: CallbackProcessStart
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2634 Pkg Builtin called: CallbackProcessProgress
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2637 Pkg Builtin called: CallbackProcessNextStage
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2640 Pkg Builtin called: CallbackProcessDone
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2646 Pkg Builtin called: CallbackStartProvide
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2649 Pkg Builtin called: CallbackProgressProvide
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2652 Pkg Builtin called: CallbackDoneProvide
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2655 Pkg Builtin called: CallbackStartPackage
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2661 Pkg Builtin called: CallbackProgressPackage
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2664 Pkg Builtin called: CallbackDonePackage
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2672 Pkg Builtin called: CallbackStartDeltaDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2675 Pkg Builtin called: CallbackProgressDeltaDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2678 Pkg Builtin called: CallbackProblemDeltaDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2681 Pkg Builtin called: CallbackFinishDeltaDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2685 Pkg Builtin called: CallbackStartDeltaApply
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2688 Pkg Builtin called: CallbackProgressDeltaApply
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2691 Pkg Builtin called: CallbackProblemDeltaApply
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2694 Pkg Builtin called: CallbackFinishDeltaApply
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2583 Pkg Builtin called: CallbackSourceCreateStart
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2586 Pkg Builtin called: CallbackSourceCreateProgress
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2589 Pkg Builtin called: CallbackSourceCreateError
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2592 Pkg Builtin called: CallbackSourceCreateEnd
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2595 Pkg Builtin called: CallbackSourceCreateInit
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2598 Pkg Builtin called: CallbackSourceCreateDestroy
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2607 Pkg Builtin called: CallbackSourceProbeStart
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2610 Pkg Builtin called: CallbackSourceProbeFailed
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2613 Pkg Builtin called: CallbackSourceProbeSucceeded
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2616 Pkg Builtin called: CallbackSourceProbeProgress
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2619 Pkg Builtin called: CallbackSourceProbeError
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2622 Pkg Builtin called: CallbackSourceProbeEnd
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2703 Pkg Builtin called: CallbackSourceReportStart
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2706 Pkg Builtin called: CallbackSourceReportProgress
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2709 Pkg Builtin called: CallbackSourceReportError
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2715 Pkg Builtin called: CallbackSourceReportEnd
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2721 Pkg Builtin called: CallbackSourceReportInit
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2724 Pkg Builtin called: CallbackSourceReportDestroy
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2732 Pkg Builtin called: CallbackProgressReportStart
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2738 Pkg Builtin called: CallbackProgressReportProgress
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2744 Pkg Builtin called: CallbackProgressReportEnd
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] packages/file_conflict_callbacks.rb:56 Registering file conflict callbacks
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] packages/file_conflict_callbacks.rb:58 Pkg Builtin called: CallbackFileConflictStart
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] packages/file_conflict_callbacks.rb:59 Pkg Builtin called: CallbackFileConflictProgress
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] packages/file_conflict_callbacks.rb:61 Pkg Builtin called: CallbackFileConflictReport
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] packages/file_conflict_callbacks.rb:63 Pkg Builtin called: CallbackFileConflictFinish
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2774 Pkg Builtin called: CallbackAuthentication
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2786 Pkg Builtin called: CallbackAcceptUnsignedFile
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2792 Pkg Builtin called: CallbackAcceptUnknownGpgKey
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2801 Pkg Builtin called: CallbackImportGpgKey
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2807 Pkg Builtin called: CallbackAcceptVerificationFailed
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2813 Pkg Builtin called: CallbackTrustedKeyAdded
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2819 Pkg Builtin called: CallbackTrustedKeyRemoved
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2825 Pkg Builtin called: CallbackAcceptFileWithoutChecksum
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2831 Pkg Builtin called: CallbackAcceptWrongDigest
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2837 Pkg Builtin called: CallbackAcceptUnknownDigest
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2481 Pkg Builtin called: CallbackMediaChange
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2487 Pkg Builtin called: CallbackSourceChange
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2506 Pkg Builtin called: CallbackScriptStart
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2509 Pkg Builtin called: CallbackScriptProgress
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2512 Pkg Builtin called: CallbackScriptProblem
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2515 Pkg Builtin called: CallbackScriptFinish
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2517 Pkg Builtin called: CallbackMessage
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2525 Pkg Builtin called: CallbackStartScanDb
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2526 Pkg Builtin called: CallbackProgressScanDb
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2529 Pkg Builtin called: CallbackErrorScanDb
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2532 Pkg Builtin called: CallbackDoneScanDb
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2549 Pkg Builtin called: CallbackInitDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2550 Pkg Builtin called: CallbackStartDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2553 Pkg Builtin called: CallbackProgressDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2559 Pkg Builtin called: CallbackDoneDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2562 Pkg Builtin called: CallbackDestDownload
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2563 Pkg Builtin called: CallbackStartRefresh
+2017-08-29 08:47:34 <1> gentoo(18648) [Pkg] modules/PackageCallbacks.rb:2564 Pkg Builtin called: CallbackDoneRefresh
+2017-08-29 08:47:34 <3> gentoo(18648) [bash] ShellCommand.cc(shellcommand):78 sh: /usr/local/lib64/libreadline.so.6: no version information available (required by sh)
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] modules/Encoding.rb:77 list ["charmap=\"UTF-8\"", ""]
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] modules/Encoding.rb:80 list ["charmap=\"UTF-8\""]
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] modules/Encoding.rb:84 enc "UTF-8"
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] modules/Encoding.rb:86 enc UTF-8
+2017-08-29 08:47:34 <1> gentoo(18648) [Ruby] modules/Encoding.rb:89 encoding UTF-8
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Misc.rb:188 .sysconfig.language.RC_LANG: 'en_US.UTF-8'
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Language.rb:562 language from sysconfig: en_US
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Language.rb:498 original language: en_US; setting to lang:en_US
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Language.rb:543 Setting default language: en_US
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Misc.rb:188 .sysconfig.language.ROOT_USES_LANG: 'ctype'
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Misc.rb:188 .sysconfig.language.RC_LANG: 'en_US.UTF-8'
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Misc.rb:188 .sysconfig.language.INSTALLED_LANGUAGES: 'ja_JP,ru_RU,en_US'
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Encoding.rb:116 SetUtf8Lang true
+2017-08-29 08:47:35 <1> gentoo(18648) [Y2Perl] Y2PerlComponent.cc(Y2PerlComponent):35 Creating Y2PerlComponent
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."NAME": 'openSUSE Leap'
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."VERSION_ID": '42.3'
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/Misc.rb:188 ."/etc/os-release"."PRETTY_NAME": 'openSUSE Leap 42.3'
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/ProductControl.rb:1193 Candidates: ["/y2update/control.xml", "/control.xml", "/etc/YaST2/control.xml"]
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/ProductControl.rb:1201 Reading control file: /etc/YaST2/control.xml
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/XML.rb:135 Reading /etc/YaST2/control.xml
+2017-08-29 08:47:35 <1> gentoo(18648) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-29 08:47:35 <1> gentoo(18648) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-29 08:47:35 <3> gentoo(18648) [bash] ShellCommand.cc(shellcommand):78 sh: /usr/local/lib64/libreadline.so.6: no version information available (required by sh)
+2017-08-29 08:47:35 <1> gentoo(18648) [Ruby] modules/XML.rb:135 Reading /home/tullio/.y2usersettings
+2017-08-29 08:47:35 <1> gentoo(18648) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-29 08:47:35 <1> gentoo(18648) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YSettings.cc(setProgDir):60 Set progDir to "/usr/share/YaST2"
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YSettings.cc(setProgDir):61 progDir is now locked.
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YSettings.cc(setLocaleDir):146 Set localeDir to "/usr/share/YaST2/locale"
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YSettings.cc(setLocaleDir):147 localeDir is now locked.
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YPath.cc(YPath):49 Given filename: libyui-qt.so.7
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YSettings.cc(progDir):73 progDir: "/usr/share/YaST2"
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YPath.cc(YPath):65 Preferring subdir: /usr/share/YaST2
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YPath.cc(YPath):66 Subdir given with filename: 
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YPath.cc(YPath):67 Looking for: libyui-qt.so.7
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YPath.cc(lsDir):138 Looking in /usr/lib64/yui
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YPath.cc(YPath):118 Found libyui-qt.so.7 in /usr/lib64/yui
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YUI.cc(YUI):76 This is libyui 3.2.9
+2017-08-29 08:47:35 <1> gentoo(18648) [ui] YUI.cc(YUI):77 Creating UI with threads
+2017-08-29 08:47:35 <1> gentoo(18648) [qt-ui] YQUI.cc(YQUI):100 This is libyui-qt 2.47.1
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-styler] QY2Styler.cc(loadStyleSheet):141 Couldn't open style sheet "/usr/share/YaST2/theme/current/wizard/style.qss"
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /usr/bin/ruby
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /usr/lib/YaST2/bin/y2start
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: OneClickInstallUI
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: --arg
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: /tmp/mozilla_tullio0/bash.ymp
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(processCommandLineArgs):296 Qt argument: qt
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(calcDefaultSize):439 Default size: 1120 x 600
+2017-08-29 08:47:36 <3> gentoo(18648) [qt-ui] YQUI.cc(initUI):262 Forcing /libQtGui.so.5 open failed
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQApplication.cc(loadPredefinedQtTranslations):133 Selected language: en_US
+2017-08-29 08:47:36 <2> gentoo(18648) [qt-ui] YQApplication.cc(loadPredefinedQtTranslations):137 Qt locale directory not set - no translations for predefined Qt dialogs
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(initUI):273 YQUI initialized. Thread ID: 0x0x7f0d73523700
+2017-08-29 08:47:36 <1> gentoo(18648) [ui] YCP_UI.cc(SetApplicationIcon):1705 Setting application icon to "/usr/share/YaST2/theme/current/icons/64x64/apps/yast.png"
+2017-08-29 08:47:36 <1> gentoo(18648) [ui] YSettings.cc(localeDir):161 localeDir: "/usr/share/YaST2/locale"
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(qMessageHandler):665 <libqt-debug> Registering  QFrame(0x7f0d6c2dcfb0, name="steps")  for parent  YQWizard(0x7f0d6c2decd0, name="wizard") 
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(qMessageHandler):665 
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(qMessageHandler):665 <libqt-debug> Registering  QWidget(0x7f0d6c2ebea0, name="work_area")  for parent  YQWizard(0x7f0d6c2decd0, name="wizard") 
+2017-08-29 08:47:36 <1> gentoo(18648) [qt-ui] YQUI.cc(qMessageHandler):665 
+2017-08-29 08:47:36 <2> gentoo(18648) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QLayout: Attempting to add QLayout "" to QFrame "", which already has a layout
+2017-08-29 08:47:36 <1> gentoo(18648) [ui] YPushButton.cc(setFunctionKey):202 Guessing button role YHelpButton for YPushButton "Help" at 0x7f0d6c2dff30 from function key F1
+2017-08-29 08:47:36 <1> gentoo(18648) [ui] YPushButton.cc(setFunctionKey):202 Guessing button role YOKButton for YPushButton "Next" at 0x7f0d6c53af60 from function key F10
+2017-08-29 08:47:36 <1> gentoo(18648) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-29 08:47:36 <1> gentoo(18648) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-29 08:47:39 <1> gentoo(18648) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-29 08:47:40 <1> gentoo(18648) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-29 08:47:42 <1> gentoo(18648) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-29 08:47:42 <3> gentoo(18648) [bash] ShellCommand.cc(shellcommand):78 sh: /usr/local/lib64/libreadline.so.6: no version information available (required by sh)
+2017-08-29 08:47:43 <3> gentoo(18648) [bash] ShellCommand.cc(shellcommand):78 sh: /usr/local/lib64/libreadline.so.6: no version information available (required by sh)
+2017-08-29 08:47:43 <3> gentoo(18648) [bash] ShellCommand.cc(shellcommand):78 /bin/sh: /usr/local/lib64/libreadline.so.6: no version information available (required by /bin/sh)
+2017-08-29 08:48:27 <1> gentoo(18648) [Ruby] modules/XML.rb:135 Reading /tmp/YaST2-18648-moU1M6/oneclickinstall.xml
+2017-08-29 08:48:27 <1> gentoo(18648) [agent-xml] XmlAgent.cc(Read):750 Setting XML generic error handler
+2017-08-29 08:48:27 <1> gentoo(18648) [agent-xml] XmlAgent.cc(Read):785 Freeing generic XML error handler
+2017-08-29 08:48:27 <1> gentoo(18648) [ui] YCP_UI.cc(SetApplicationTitle):1722 Setting application title to '"YaST2"'
+2017-08-29 08:48:29 <1> gentoo(18648) [Interpreter] bin/y2start:56 Called YaST client returned.
+2017-08-29 08:48:29 <2> gentoo(18648) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::killTimer: Timers cannot be stopped from another thread
+2017-08-29 08:48:29 <2> gentoo(18648) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
+2017-08-29 08:48:29 <2> gentoo(18648) [qt-ui] YQUI.cc(qMessageHandler):675 <libqt-warning> QObject::~QObject: Timers cannot be stopped from another thread
+2017-08-29 08:48:29 <1> gentoo(18648) [Y2Ruby] binary/YRuby.cc(~YRuby):117 Shutting down ruby interpreter.
+2017-08-29 08:48:29 <1> gentoo(18648) [Y2Perl] YPerl.cc(destroy):164 Shutting down embedded Perl interpreter.

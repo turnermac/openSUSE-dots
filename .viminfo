@@ -8,19 +8,25 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/AUTO_DETECT
+~MSle0~/konqueror
 
 # Last Substitute Search Pattern:
 ~MSle0&rowland
 
 # Last Substitute String:
-$firefox
+$
 
 # Command Line History (newest to oldest):
 :wq
-:w
 :q
+:e playlist.xml
+:sp
+:w
+:u
 :q!
+:'<,'> tabstop=4: shiftwidth=4: noexpandtab:
+:i
+:WQ
 :sh
 :set laststatus=2
 :%s/rowland/firefox
@@ -31,11 +37,18 @@ $firefox
 :!q
 :g:neosnippet#disable_runtime_snippets.
 :set ttimeoutlen=50
-:set laststatus 2
-:help vim-airline
-:%s/1c1c1c/22272E/g
 
 # Search String History (newest to oldest):
+?/konqueror
+?/General
+?/BrowserApplication
+?/<++>
+?/left
+? \Vpr\%#
+? \Vmain\%#
+? \Vinc\%#
+? \Vdo\%#
+? \Vwh\%#
 ?/AUTO_DETECT
 ? rowland
 ? computer
@@ -46,9 +59,6 @@ $firefox
 ?/default
 ? \(\s*\n\)\+\%$
 ?/ceit
-?/ceti
-?/29
-? 1c1c1c
 
 # Expression History (newest to oldest):
 
@@ -57,143 +67,679 @@ $firefox
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	URxvt*boldFont: xft:Droid Sans Fallback:style=Regular
-"1	LINE	0
-	            		xft:Baekmuk Gulim
-"2	LINE	0
-				xft:Kochi Gothic:antialias=false,\
-"3	LINE	0
-				xft:Baekmuk Gulim
-"4	LINE	0
-				xft:Kochi Gothic:antialias=false,\
-"5	LINE	0
-	URxvt*font: 		xft:Tewi:pixelsize=10,\
-"6	LINE	0
+"0	CHAR	0
+	<item url="/home/tullio/.playlists/13.mkv"/>
+""1	LINE	0
 	
+"2	LINE	0
+	
+"3	LINE	0
+	
+"4	LINE	0
+	
+"5	LINE	0
+	
+"6	LINE	0
+	<item url="/home/tullio/.playlists/13.mkv<item url="/home/tullio/.playlists/13.mkv""
 "7	LINE	0
-	  control+shift+1
+	<item url="/home/tullio/.playlists/13.mkv<item url="/home/tullio/.playlists/13.mkv""
 "8	LINE	0
-	"/home/tullio/bin/xrdb_urxvt"
+	<item url="/home/tullio/.playlists/13.mkv<item url="/home/tullio/.playlists/13.mkv""
 "9	LINE	0
-	"/home/tullio/bin/keys.sh"
+	
+"w	CHAR	0
+	w
 "-	CHAR	0
-	v
+	"
 
 # File marks:
-'0  2  17  ~/.xsessionrc
-'1  83  55  ~/.Xresources
-'2  66  55  ~/.Xresources
-'3  85  55  ~/.Xresources
-'4  67  23  ~/.Xresources
-'5  40  16  ~/.Xresources
-'6  1  0  ~/.dotfiles_local/.gitignore
-'7  3  1  ~/.dotfiles_local/.gitignore
-'8  1  0  ~/.bashrc
-'9  3  20  ~/.vimrc
+'0  10  17  ~/.xprofile
+'1  61  29  ~/.trinity/share/config/kdeglobals
+'2  12  0  ~/.trinity/share/config/kmplayerrc
+'3  1  20  ~/.trinity/share/apps/kmplayer/playlist.xml
+'4  26  9  ~/.trinity/share/config/kmplayerrc
+'5  1  0  ~/.trinity/share/config/kmplayerrc
+'6  1  0  ~/.trinity/share/apps/kmplayer/bookmarks.xml
+'7  18  0  ~/.trinity/share/apps/kmplayer/playlist.xml
+'8  4  0  ~/.xprofile
+'9  3  127  ~/.bash_profile
 
 # Jumplist (newest first):
--'  2  17  ~/.xsessionrc
--'  1  0  ~/.xsessionrc
--'  83  55  ~/.Xresources
--'  66  55  ~/.Xresources
--'  85  55  ~/.Xresources
--'  67  23  ~/.Xresources
--'  40  16  ~/.Xresources
--'  51  16  ~/.Xresources
--'  1  0  ~/.dotfiles_local/.gitignore
--'  3  1  ~/.dotfiles_local/.gitignore
--'  1  0  ~/.bashrc
--'  3  20  ~/.vimrc
--'  1  0  ~/.vimrc
--'  9  0  ~/.dotfiles_local/.git/COMMIT_EDITMSG
--'  2  0  ~/.dotfiles_local/.git/COMMIT_EDITMSG
--'  1  0  ~/.dotfiles_local/.git/COMMIT_EDITMSG
--'  1  0  ~/.dotfiles_local/.profile
--'  13  0  ~/.profile
--'  1  0  ~/.profile
--'  197  17  ~/.gnupg/gpg.conf
--'  1  0  ~/.gnupg/gpg.conf
--'  10  25  ~/.Xresources
--'  23  0  ~/textfiles/new
--'  1  0  ~/textfiles/new
--'  24  25  ~/.bashrc
--'  21  20  ~/.bashrc
--'  1  25  ~/.Xresources
--'  1  0  /opt/trinity/bin/compton-tde
--'  4  6  ~/bin/xrdb_urxvt
--'  3  17  ~/bin/xrdb_urxvt
--'  5  22  ~/kemsly.github.io/terminal/main.css
--'  8  22  ~/kemsly.github.io/terminal/main.css
--'  1  0  ~/kemsly.github.io/terminal/main.css
--'  5  0  ~/kemsly.github.io/terminal/index.html
--'  58  0  ~/kemsly.github.io/terminal/index.html
--'  1  0  ~/kemsly.github.io/terminal/index.html
--'  25  8  ~/kemsly.github.io/terminal/index.html
--'  114  17  /etc/sysconfig/language
--'  1  0  /etc/sysconfig/language
--'  79  0  ~/.Xresources
--'  81  0  ~/.Xresources
+-'  10  17  ~/.xprofile
+-'  4  0  ~/.xprofile
+-'  61  29  ~/.trinity/share/config/kdeglobals
+-'  1  0  ~/.trinity/share/config/kdeglobals
+-'  12  0  ~/.trinity/share/config/kmplayerrc
+-'  1  20  ~/.trinity/share/apps/kmplayer/playlist.xml
+-'  2  0  ~/.trinity/share/apps/kmplayer/playlist.xml
+-'  26  0  ~/.trinity/share/config/kmplayerrc
+-'  141  0  ~/.trinity/share/config/kmplayerrc
+-'  1  0  ~/.trinity/share/config/kmplayerrc
+-'  1  0  ~/.trinity/share/apps/kmplayer/bookmarks.xml
+-'  18  0  ~/.trinity/share/apps/kmplayer/playlist.xml
+-'  5  0  ~/.xprofile
+-'  3  127  ~/.bash_profile
+-'  1  0  ~/.anaconda3/bin/.bash_pro
+-'  18  0  /usr/share/sddm/scripts/Xsession
+-'  1  0  /usr/share/sddm/scripts/Xsession
+-'  8  0  ~/.xprofile
+-'  16  0  ~/.bashrc
+-'  83  49  ~/.Xresources
 -'  82  0  ~/.Xresources
--'  80  1  ~/.Xresources
--'  2  21  ~/kemsly.github.io/terminal/main.js
--'  1  17  ~/kemsly.github.io/terminal/main.js
--'  19  46  ~/.bashrc
--'  43  0  ~/.Xresources
--'  3  17  ~/kde-colors-solarized/install.sh
--'  1  0  ~/kde-colors-solarized/install.sh
--'  6  13  ~/bin/urxvt-256-color.sh
--'  1  0  ~/bin/urxvt-256-color.sh
--'  47  0  ~/.xbindkeysrc
--'  46  20  ~/.xbindkeysrc
--'  1  0  ~/bin/xrdb_urxvt
--'  1  42  ~/.xbindkeysrc
--'  3  0  ~/.xbindkeysrc
--'  2  0  ~/.xbindkeysrc
--'  3  59  ~/bin/keys.sh
--'  1  0  ~/bin/keys.sh
--'  1  17  ~/.Xsession
--'  12  0  ~/[Command Line]
--'  1  0  ~/hell.c
--'  6  0  ~/.vimrc
--'  10  0  ~/.vimrc
--'  1  0  ~/hel.c
--'  16  0  ~/.vimrc
--'  1  0  /usr/share/vim/vim74/doc/help.txt
--'  1  0  ~/.vim/bundle/hello.c
--'  3  0  ~/.vim/bundle/hello.c
--'  15  17  ~/.vimrc
--'  63  22  ~/powerline-shell/config.py
--'  1  0  ~/powerline-shell/config.py
--'  279  60  ~/powerline-shell/powerline-shell.py
--'  216  31  ~/powerline-shell/powerline-shell.py
--'  207  63  ~/powerline-shell/powerline-shell.py
--'  205  55  ~/powerline-shell/powerline-shell.py
--'  202  54  ~/powerline-shell/powerline-shell.py
--'  197  12  ~/powerline-shell/powerline-shell.py
--'  192  57  ~/powerline-shell/powerline-shell.py
--'  377  15  ~/powerline-shell/powerline-shell.py
--'  280  59  ~/powerline-shell/powerline-shell.py
--'  217  44  ~/powerline-shell/powerline-shell.py
--'  1  0  ~/powerline-shell/powerline-shell.py
--'  8  0  ~/powerline-shell/config.py.dist
--'  1  0  ~/powerline-shell/config.py.dist
--'  12  25  ~/.vimrc
--'  13  0  ~/.vimrc
--'  17  0  ~/.vimrc
--'  172  0  ~/.vimrc
--'  169  0  ~/.vimrc
--'  1  0  ~/hello.c
--'  1  0  ~/cool-retro-term/cool-retro-term.pro
--'  17  0  ~/.bashrc
--'  24  0  ~/.Xresources
--'  1  40  ~/.tmux.conf
--'  2  0  ~/.tmux.conf
--'  206  0  ~/.weechat/irc.conf
--'  212  0  ~/.weechat/irc.conf
--'  213  0  ~/.weechat/irc.conf
+-'  95  0  ~/.Xresources
+-'  10  12  ~/.Xresources
+-'  1  0  ~/.Xresources
+-'  81  24  ~/.Xresources
+-'  20  0  ~/.bashrc
+-'  30  0  ~/.bashrc
+-'  1  0  ~/.xprofile
+-'  11  0  ~/.xprofile
+-'  145  18  ~/AfterStep-2.2.12/afterstep-devel-2.2.12/Makefile
+-'  1  0  ~/AfterStep-2.2.12/afterstep-devel-2.2.12/Makefile
+-'  2  33  ~/textfiles/gpg-how.txt
+-'  3  0  ~/textfiles/gpg-how.txt
+-'  28  21  ~/textfiles/passwords
+-'  1  0  ~/textfiles/passwords
+-'  18  0  ~/.bashrc
+-'  20  0  ~/.bash_profile
+-'  6  0  ~/.ssh/known_hosts
+-'  3  0  ~/.ssh/known_hosts
+-'  1  0  ~/.ssh/known_hosts
+-'  4  0  ~/.ssh/known_hosts
+-'  1  0  ~/Konsoles/konsoles.sh
+-'  1  0  ~/bin/konsoles.sh
+-'  50  0  ~/klib.sh
+-'  5  0  ~/klib.sh
+-'  1  0  ~/klib.sh
+-'  73  52  ~/klib.sh
+-'  74  0  ~/klib.sh
+-'  37  0  ~/klib.sh
+-'  33  77  ~/textfiles/shell.txt
+-'  1  0  ~/textfiles/shell.txt
+-'  54  0  ~/git/bash/braces.c
+-'  1  0  ~/git/bash/braces.c
+-'  22  0  ~/.bashrc
+-'  95  0  ~/git/bash/trap.c
+-'  1  0  ~/git/bash/trap.c
+-'  13  0  ~/.inputrc
+-'  14  0  ~/.inputrc
+-'  1  16  /tmp/bash-fc.Z9eTjI
+-'  23  58  ~/textfiles/readline.txt
+-'  1  0  /tmp/bash-fc.y7fRz1
+-'  22  0  ~/textfiles/readline.txt
+-'  1  0  /tmp/bash-fc.ZUE3kr
+-'  1  0  ~/completion-query-items
+-'  21  0  ~/textfiles/readline.txt
+-'  15  0  ~/.inputrc
+-'  1  0  ~/
+-'  30  0  ~/.inputrc
+-'  12  0  ~/textfiles/readline.txt
+-'  1  0  ~/textfiles/readline.txt
+-'  15  0  ~/.bashrc
+-'  1  0  ~/Videos/UrbanPenguin/completion-query-items
+-'  6  0  ~/.bashrc
+-'  1  0  ~/.inputrc
+-'  101  0  ~/.inputrc
+-'  41  0  ~/.inputrc
+-'  1000  0  ~/.bash_history
+-'  1  0  ~/.bash_history
+-'  30  0  ~/.bash_history
+-'  23  0  ~/.bashrc
+-'  2  5  /tmp/tutorbvqt23
+-'  1  0  /tmp/tutorbvqt23
+-'  21  26  ~/.conkyrc
+-'  1  0  ~/.conkyrc
+-'  3  0  /tmp/tutor9bYQPB
+-'  1  0  /tmp/tutor9bYQPB
+-'  1  45  ~/h.html
+-'  18  0  ~/.vimrc
+-'  12  0  ~/h.html
+-'  9  19  ~/h.html
+-'  1  25  ~/test.html
+-'  16  0  ~/test.html
+-'  9  0  ~/test.html
+-'  2  2  ~/test.html
+-'  1  0  ~/.vimrc
+-'  1  3  ~/hello.c
+-'  5  4  ~/hello.c
+-'  3  4  ~/hello.c
 
 # History of marks within files (newest to oldest):
+
+> ~/.xprofile
+	"	10	17
+	^	10	18
+	.	10	17
+	+	1	25
+	+	7	22
+	+	6	19
+	+	8	26
+	+	1	25
+	+	4	39
+	+	4	0
+	+	10	17
+
+> ~/.trinity/share/config/kdeglobals
+	"	61	29
+	^	53	31
+	.	53	30
+	+	53	30
+
+> ~/.trinity/share/config/kmplayerrc
+	"	12	0
+	^	26	10
+	.	12	9
+	+	26	9
+	+	12	9
+
+> ~/.trinity/share/apps/kmplayer/playlist.xml
+	"	1	20
+	^	1	21
+	.	1	19
+	+	19	0
+	+	5	15
+	+	6	3
+	+	7	3
+	+	8	3
+	+	9	3
+	+	10	4
+	+	11	3
+	+	12	3
+	+	13	3
+	+	14	3
+	+	15	3
+	+	16	3
+	+	17	3
+	+	18	0
+	+	5	44
+	+	6	15
+	+	7	15
+	+	8	15
+	+	9	15
+	+	10	15
+	+	11	15
+	+	12	15
+	+	13	15
+	+	14	15
+	+	15	15
+	+	16	15
+	+	17	15
+	+	6	40
+	+	7	40
+	+	8	40
+	+	9	40
+	+	10	40
+	+	11	40
+	+	12	40
+	+	13	40
+	+	14	39
+	+	15	41
+	+	16	40
+	+	17	40
+	+	6	44
+	+	7	41
+	+	8	41
+	+	9	41
+	+	7	46
+	+	8	46
+	+	9	46
+	+	10	41
+	+	11	41
+	+	12	41
+	+	13	41
+	+	14	41
+	+	15	41
+	+	16	41
+	+	17	41
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	17	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	2	34
+	+	1	19
+
+> ~/.trinity/share/apps/kmplayer/bookmarks.xml
+	"	1	0
+
+> ~/.bash_profile
+	"	3	127
+	^	3	128
+	.	3	127
+	+	3	12
+	+	3	127
+	+	3	13
+	+	3	127
+
+> ~/.anaconda3/bin/.bash_pro
+	"	1	0
+
+> /usr/share/sddm/scripts/Xsession
+	"	18	0
+
+> ~/.bashrc
+	"	16	0
+	^	18	14
+	.	19	0
+	+	35	0
+	+	34	6
+	+	32	39
+	+	31	17
+	+	2	0
+	+	1	0
+	+	3	0
+	+	6	21
+	+	5	21
+	+	7	1
+	+	15	7
+	+	31	21
+	+	31	4
+	+	20	47
+	+	31	0
+	+	31	20
+	+	31	21
+	+	31	0
+	+	31	16
+	+	20	27
+	+	31	29
+	+	11	0
+	+	17	70
+	+	20	16
+	+	20	20
+	+	31	0
+	+	30	73
+	+	6	0
+	+	15	0
+	+	20	0
+	+	21	17
+	+	18	13
+	+	20	0
+	+	19	0
+
+> ~/.Xresources
+	"	83	49
+	^	82	35
+	.	82	34
+	+	41	23
+	+	26	25
+	+	53	16
+	+	12	0
+	+	84	32
+	+	84	34
+	+	84	37
+	+	84	37
+	+	84	2
+	+	82	1
+	+	84	0
+	+	82	0
+	+	83	0
+	+	83	0
+	+	83	2
+	+	83	0
+	+	82	44
+	+	53	16
+	+	69	0
+	+	68	0
+	+	71	0
+	+	72	0
+	+	71	0
+	+	72	23
+	+	69	23
+	+	87	56
+	+	87	55
+	+	69	0
+	+	72	0
+	+	71	0
+	+	68	55
+	+	85	55
+	+	11	0
+	+	9	61
+	+	89	65
+	+	83	14
+	+	19	24
+	+	9	0
+	+	9	0
+	+	10	65
+	+	80	18
+	+	82	15
+	+	83	0
+	+	82	34
+
+> ~/AfterStep-2.2.12/afterstep-devel-2.2.12/Makefile
+	"	145	18
+	^	8	46
+	.	8	45
+	+	8	45
+
+> ~/textfiles/gpg-how.txt
+	"	2	33
+	^	2	34
+	.	2	33
+	+	2	33
+
+> ~/textfiles/passwords
+	"	28	21
+	^	28	22
+	.	28	21
+	+	25	13
+	+	28	21
+
+> ~/.ssh/known_hosts
+	"	6	0
+	.	5	0
+	+	5	0
+
+> ~/Konsoles/konsoles.sh
+	"	1	0
+
+> ~/bin/konsoles.sh
+	"	1	0
+
+> ~/klib.sh
+	"	50	0
+	^	5	16
+	.	5	15
+	+	10	0
+	+	12	0
+	+	14	0
+	+	16	0
+	+	21	0
+	+	18	0
+	+	19	94
+	+	28	0
+	+	30	0
+	+	32	0
+	+	34	34
+	+	35	8
+	+	36	53
+	+	40	0
+	+	42	0
+	+	44	0
+	+	46	0
+	+	49	30
+	+	51	24
+	+	52	2
+	+	54	26
+	+	55	2
+	+	57	27
+	+	58	2
+	+	60	47
+	+	61	8
+	+	63	45
+	+	64	8
+	+	66	48
+	+	68	0
+	+	69	35
+	+	70	9
+	+	72	53
+	+	73	52
+	+	5	15
+
+> ~/textfiles/shell.txt
+	"	33	77
+	^	33	78
+	.	33	77
+	+	34	36
+	+	33	77
+
+> ~/git/bash/braces.c
+	"	54	0
+
+> ~/git/bash/trap.c
+	"	95	0
+
+> ~/.inputrc
+	"	13	0
+	.	13	0
+	+	1	0
+	+	1	29
+	+	1	20
+	+	1	3
+	+	1	3
+	+	1	60
+	+	2	50
+	+	25	21
+	+	26	20
+	+	27	19
+	+	28	13
+	+	32	22
+	+	33	18
+	+	34	18
+	+	35	12
+	+	39	26
+	+	40	22
+	+	41	22
+	+	42	16
+	+	46	26
+	+	47	22
+	+	48	22
+	+	49	16
+	+	55	52
+	+	100	11
+	+	101	0
+	+	15	0
+	+	13	26
+	+	13	0
+
+> /tmp/bash-fc.Z9eTjI
+	"	1	16
+	^	1	17
+	.	1	16
+	+	1	16
+
+> ~/textfiles/readline.txt
+	"	23	58
+	^	23	59
+	.	23	58
+	+	1	1
+	+	2	16
+	+	3	31
+	+	8	58
+	+	10	1
+	+	9	3
+	+	10	27
+	+	11	28
+	+	12	28
+	+	15	5
+	+	16	4
+	+	24	0
+	+	17	64
+	+	18	15
+	+	8	5
+	+	18	17
+	+	13	4
+	+	18	64
+	+	19	0
+	+	15	3
+	+	21	0
+	+	6	27
+	+	7	41
+	+	21	12
+	+	22	52
+	+	23	58
+
+> /tmp/bash-fc.y7fRz1
+	"	1	0
+
+> /tmp/bash-fc.ZUE3kr
+	"	1	0
+
+> ~/completion-query-items
+	"	1	0
+
+> ~/Videos/UrbanPenguin/completion-query-items
+	"	1	0
+
+> ~/.bash_history
+	"	1000	0
+
+> /tmp/tutorbvqt23
+	"	2	5
+
+> ~/.conkyrc
+	"	21	26
+	^	21	27
+	.	21	26
+	+	21	26
+
+> /tmp/tutor9bYQPB
+	"	3	0
+
+> ~/h.html
+	"	1	45
+	^	1	46
+	.	1	45
+	+	1	24
+	+	4	0
+	+	11	0
+	+	1	45
+
+> ~/.vimrc
+	"	18	0
+	^	18	64
+	.	18	63
+	+	179	0
+	+	182	0
+	+	27	0
+	+	25	18
+	+	5	32
+	+	27	0
+	+	5	0
+	+	5	0
+	+	3	20
+	+	4	0
+	+	9	17
+	+	15	45
+	+	16	46
+	+	18	63
+
+> ~/test.html
+	"	1	25
+	^	1	26
+	.	1	25
+	+	1	0
+	+	1	0
+	+	2	4
+	+	9	4
+	+	16	2
+	+	2	0
+	+	1	25
+
+> ~/hello.c
+	"	1	3
+	^	7	0
+	.	8	0
+	+	1	0
+	+	20	0
+	+	15	0
+	+	17	0
+	+	18	0
+	+	17	21
+	+	1	0
+	+	1	0
+	+	1	10
+	+	1	0
+	+	15	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	7	1
+	+	10	4
+	+	14	3
+	+	8	0
+
+> ~/fibonacci.c
+	"	16	4
+	^	16	20
+	.	16	20
+	+	1	0
+	+	20	0
+	+	3	0
+	+	8	0
+	+	9	0
+	+	8	9
+	+	17	0
+	+	17	0
+	+	11	0
+	+	12	0
+	+	16	19
+	+	12	0
+	+	16	0
+	+	12	23
+	+	15	12
+	+	16	16
+	+	7	0
+	+	8	13
+	+	16	20
+
+> /tmp/tutorEC4tnE
+	"	1	0
+
+> ~/p.c
+	"	5	8
+	^	6	0
+	.	6	0
+	+	1	0
+	+	10	0
+	+	3	0
+	+	7	0
+	+	8	0
+	+	7	17
+	+	6	0
+
+> ~/Edict/xjdict/Makefile
+	"	1	0
+
+> ~/.tmp/text
+	"	5	10
+	^	5	11
+	.	5	10
+	+	5	10
+
+> ~/.vim/bundle/hello.c
+	"	5	1
+	^	5	2
+	.	4	0
+	+	1	2
+	+	8	0
+	+	1	0
+	+	8	0
+	+	3	0
+	+	4	0
+
+> ~/.hello.c
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/.bashr
+	"	1	0
+
+> ~/.dotfiles_local/.bashrc
+	"	20	0
+	.	21	0
+	+	12	0
+	+	21	0
+	+	21	0
+
+> ~/.LESS_TERMCAP
+	"	10	70
+	^	10	71
+	.	10	0
+	+	10	0
+
+> ~/.dotfiles_local/.LESS_TERMCAP
+	"	1	56
+	^	1	57
+	.	14	0
+	+	14	0
+
+> ~/.dotfiles_local/.bash_profile
+	"	1	0
 
 > ~/.xsessionrc
 	"	2	17
@@ -203,43 +749,6 @@ $firefox
 
 > /usr/share/vim/vim74/doc/help.txt
 	"	1	0
-
-> ~/.Xresources
-	"	83	55
-	^	83	56
-	.	83	55
-	+	39	23
-	+	24	25
-	+	51	16
-	+	10	0
-	+	82	32
-	+	82	34
-	+	82	37
-	+	82	37
-	+	82	2
-	+	80	1
-	+	82	0
-	+	80	0
-	+	81	0
-	+	81	0
-	+	81	2
-	+	81	0
-	+	80	44
-	+	51	16
-	+	67	0
-	+	66	0
-	+	69	0
-	+	70	0
-	+	69	0
-	+	70	23
-	+	67	23
-	+	85	56
-	+	85	55
-	+	67	0
-	+	70	0
-	+	69	0
-	+	66	55
-	+	83	55
 
 > ~/.dotfiles_local/.gitignore
 	"	1	0
@@ -252,42 +761,6 @@ $firefox
 	+	3	0
 	+	2	0
 	+	1	0
-
-> ~/.bashrc
-	"	1	0
-	^	24	22
-	.	24	21
-	+	36	0
-	+	35	6
-	+	33	39
-	+	32	17
-	+	2	0
-	+	1	0
-	+	3	0
-	+	6	21
-	+	5	21
-	+	7	1
-	+	17	7
-	+	20	21
-	+	21	4
-	+	19	47
-	+	22	0
-	+	21	20
-	+	24	21
-
-> ~/.vimrc
-	"	3	20
-	^	3	21
-	.	3	20
-	+	169	0
-	+	172	0
-	+	17	0
-	+	15	18
-	+	6	32
-	+	17	0
-	+	6	0
-	+	6	0
-	+	3	20
 
 > ~/.dotfiles_local/.git/COMMIT_EDITMSG
 	"	9	0
@@ -402,13 +875,6 @@ $firefox
 > ~/hel.c
 	"	1	0
 
-> ~/.vim/bundle/hello.c
-	"	2	0
-	^	2	1
-	.	2	0
-	+	1	2
-	+	2	0
-
 > ~/.vim/bundle/NERD_tree_1
 	"	12	0
 	.	1	0
@@ -426,12 +892,6 @@ $firefox
 
 > ~/powerline-shell/config.py.dist
 	"	8	0
-
-> ~/hello.c
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
 
 > ~/cool-retro-term/cool-retro-term.pro
 	"	1	0
@@ -491,9 +951,6 @@ $firefox
 	+	1	12
 
 > ~/fuyuneko/bashr
-	"	1	0
-
-> ~/.bash_profile
 	"	1	0
 
 > ~/.mpd/mpd.conf
@@ -603,42 +1060,3 @@ $firefox
 	.	61	0
 	+	68	0
 	+	61	0
-
-> ~/.twily/firefox/stylish/stylish-css
-	"	1	0
-
-> ~/.twily/www/css/style.css
-	"	96	0
-
-> ~/screenshots/Git/kamikal.github.io/god_dammit/index.html
-	"	16	43
-	^	16	44
-	.	27	43
-	+	14	36
-	+	16	35
-	+	14	22
-	+	22	49
-	+	23	40
-	+	24	40
-	+	25	40
-	+	26	40
-	+	27	43
-
-> ~/screenshots/Git/kamikal.github.io/awoo/index.html
-	"	1	5
-	^	31	37
-	.	27	37
-	+	16	52
-	+	17	54
-	+	18	54
-	+	17	53
-	+	16	35
-	+	17	38
-	+	16	18
-	+	18	38
-	+	22	56
-	+	14	41
-	+	27	37
-
-> ~/twily/www/css/style.css
-	"	1	0

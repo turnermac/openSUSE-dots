@@ -1,0 +1,120 @@
+! Clickble URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.keysym.C-Delete: perl:matcher:last
+URxvt.keysym.M-Delete: perl:matcher:list
+URxvt.matcher.rend.0: Uline Bold fg5
+
+URxvt.font: xft:Droid\ Sans\ Mono\ for\ Powerline:pixelsize=9,xft:PowerlineSymbols
+!URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=10,xft:PowerlineSymbols
+!URxvt*font:     xft:Droid Sans Mono:style=Regular:size=8
+!URxvt*boldFont: xft:Droid Sans Fallback:style=Regular
+
+URxvt.depth: 32
+URxvt*geometry:         120x30
+URxvt*scrollBar:        false
+
+! Color scheme
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+*background:            S_base03
+*foreground:            S_base0
+*fadeColor:             S_base03
+*cursorColor:           S_base1
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+!! black dark/light
+*color0:                S_base02
+*color8:                S_base03
+
+!! red dark/light
+*color1:                S_red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
+
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3
+
+URxvt*perl-ext-common:  default,clipboard
+URxvt*perl-ext:         default,clipboard
+
+
+!Appearance
+URxvt.saveLines:        12000
+URxvt.internalBorder:   20
+URxvt*fading:	40
+!URxvt*fadeColor: black
+
+!XTERM Settings
+XTerm*title: openSUSE
+XTerm*dynamicColors: true
+XTerm*faceName: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=10,xft:PowerlineSymbols
+XTerm*faceNameDoublesize: xft:Droid Sans Fallback:style=Regular
+XTerm*utf8: 		3
+XTerm*geometry: 	126x30
+XTerm*internalBorder:   10
+XTerm*background:       #262729
+XTerm*foreground:       light grey
+XTerm*metaSendsEscape:  true
+XTerm*colorBD:          #ffffff
+XTerm*colorBDMode:      false
+XTerm*cursorBlink:      false
+XTerm*cursorColor:	#e2baf1
+XTerm*ScrollBar: 	false
+XTerm*saveLines: 	512
+
+!KTERM Settings
+KTerm*title: openSUSE
+KTerm*dynamicColors: true
+KTerm*faceName: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=10,xft:PowerlineSymbols
+KTerm*faceNameDoublesize: xft:Droid Sans Fallback:style=Regular
+KTerm*utf8: 		3
+KTerm*geometry: 	126x30
+KTerm*internalBorder:   10
+KTerm*background:       #262729
+KTerm*foreground:       light grey
+KTerm*metaSendsEscape:  true
+KTerm*colorBD:          #ffffff
+KTerm*colorBDMode:      false
+KTerm*cursorBlink:      false
+KTerm*cursorColor:	#e2baf1
+KTerm*ScrollBar: 	false
+KTerm*saveLines: 	512
